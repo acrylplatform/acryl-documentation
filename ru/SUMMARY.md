@@ -60,9 +60,14 @@
   * [Транзакция установки скрипта](blockchain/transaction-type/set-script-transaction.md)
   * [Транзакция установки скрипта ассета](blockchain/transaction-type/set-asset-script-transaction.md)
 * [Токен](blockchain/token.md)
+<<<<<<< HEAD
+  * [ACRYLETTE](blockchain/token/acrylette.md)
+  * [ACRYL](blockchain/token/acryl.md)
+=======
   * [ID токена](blockchain/token/token-id.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WAVES](blockchain/token/waves.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
   * [WCT](blockchain/token/wct.md)
   * [Не взаимозаменяемый токен](blockchain/token/non-fungible-token.md)
   * [Смарт-ассет](blockchain/token/smart-asset.md)
@@ -81,6 +86,95 @@
 
 ## Client
 
+<<<<<<< HEAD
+* [Установка Acryl приложения](acryl-client/install-acryl-client.md)
+* [Заметки о безопасности](acryl-client/security-notes.md)
+* [Управление аккаунтом](acryl-client/account-management.md)
+  * [Создание аккаунта](acryl-client/account-management/creating-an-account.md)
+  * [Восстановление аккаунта](acryl-client/account-management/restore-an-account.md)
+  * [Ledger Nano S в Acryl приложении](acryl-client/account-management/ledger-nano.md)
+  * [Acryl Keeper](acryl-keeper/how-to-use-acryl-keeper.md)
+  * [Вход в аккаунт](acryl-client/account-management/signing-in-to-your-account.md)
+  * [Ваш Acryl адрес](acryl-client/account-management/acryl-address.md)
+  * [Создание персонального Псевдонима](acryl-client/account-management/creating-an-alias.md)
+  * [Лизинг Acryl токенов](acryl-client/account-management/acryl-leasing.md)
+* [Переводы и шлюзы](acryl-client/wallet-management.md)
+  * [Acryl переводы](acryl-client/transfers-and-gateways/acryl-transfers.md)
+  * [Переводы Ассетов](acryl-client/transfers-and-gateways/asset-transfers.md)
+  * [Vostok переводы](acryl-client/transfers-and-gateways/vostok-transfers.md)
+  * [Bitcoin переводы](acryl-client/transfers-and-gateways/bitcoin-transfers.md)
+  * [Ethereum переводы](acryl-client/transfers-and-gateways/ethereum-transfers.md)
+  * [Litecoin переводы](acryl-client/transfers-and-gateways/litecoin-transfers.md)
+  * [Zcash переводы](acryl-client/transfers-and-gateways/zcash-transfers.md)
+  * [Bitcoin Cash переводы](acryl-client/transfers-and-gateways/bitcoin-cash-transfers.md)
+  * [Dash переводы](acryl-client/transfers-and-gateways/dash-transfers.md)
+  * [Monero переводы](acryl-client/transfers-and-gateways/monero-transfers.md)
+  * [Bitcoin SV переводы](acryl-client/transfers-and-gateways/bitcoin-sv-transfers.md)
+  * [Перевод EUR и USD](acryl-client/transfers-and-gateways/eur-usd-transfers.md)
+  * [Покупка Acryl с банковской карты](acryl-client/transfers-and-gateways/buying-acryl-using-card.md)
+* [Управление ассетами](acryl-client/assets-management.md)
+  * [Создание токена](acryl-client/assets-management/issue-an-asset.md)
+  * [Перевыпуск токена](acryl-client/assets-management/reissue-an-asset.md)
+  * [Закрытие перевыпуска](acryl-client/assets-management/reissuable-nonreissuable.md)
+  * [Сжигание токена](acryl-client/assets-management/burn-an-asset.md)
+  * [Распределение токена](acryl-client/assets-management/mass-transfer.md)
+  * [Спонсорские транзакции](acryl-client/assets-management/sponsored-transaction.md)
+  * [Спонсорская комиссия](acryl-client/assets-management/sponsored-fee.md)
+* [Расширенные возможности](acryl-client/advanced_features.md)
+  * [Script транзакция](acryl-client/advanced_features/script_transaction.md)
+  * [JSON подтверждение](acryl-client/advanced_features/json_confirmation.md)
+* [Мобильные приложения](acryl-client/mobile-apps.md)
+  * [Мобильное приложение для iOS устройств](acryl-client/mobile-apps/iOS.md)
+    * [Управление аккаунтом (iOS)](acryl-client/mobile-apps/iOS/account-management.md)
+      * [Создание аккаунта (iOS)](acryl-client/mobile-apps/iOS/account-management/creating-an-account.md)
+      * [Восстановление аккаунта (iOS)](acryl-client/mobile-apps/iOS/account-management/restore-an-account.md)
+      * [Вход в аккаунт (iOS)](acryl-client/mobile-apps/iOS/account-management/signing-in-to-your-account.md)
+      * [Ваш Acryl адрес (iOS)](acryl-client/mobile-apps/iOS/account-management/acryl-address.md)
+      * [Создание персонального Псевдонима (iOS)](acryl-client/mobile-apps/iOS/account-management/creating-an-alias.md)
+      * [Лизинг Acryl токенов (iOS)](acryl-client/mobile-apps/iOS/account-management/acryl-leasing.md)
+    * [Управление ассетами (iOS)](acryl-client/mobile-apps/iOS/assets-management.md)
+      * [Сжигание токена (iOS)](acryl-client/mobile-apps/iOS/assets-management/burn-an-asset.md)
+    * [Переводы и шлюзы (iOS)](acryl-client/mobile-apps/iOS/wallet-management.md)
+      * [Acryl переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/acryl-transfers.md)
+      * [Vostok переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/vostok-transfers.md)
+      * [Переводы Ассетов (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/asset-transfers.md)
+      * [Bitcoin переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-transfers.md)
+      * [Ethereum переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/ethereum-transfers.md)
+      * [Litecoin переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/litecoin-transfers.md)
+      * [Zcash переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/zcash-transfers.md)
+      * [Bitcoin Cash переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-cash-transfers.md)
+      * [Dash переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/dash-transfers.md)
+      * [Monero переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/monero-transfers.md)
+      * [Bitcoin SV переводы (iOS)](acryl-client/mobile-apps/iOS/transfers-and-gateways/bitcoin-sv-transfers.md)
+      * [Покупка Acryl с банковской карты](acryl-client/mobile-apps/iOS/transfers-and-gateways/buying-acryl-using-card.md)
+    * [Acryl DEX (iOS)](acryl-client/mobile-apps/iOS/acryl-dex/about-acryl-dex.md)
+      * [Использование биржи DEX (iOS)](acryl-client/mobile-apps/iOS/acryl-dex/start-trading-on-the-acryl-dex.md)
+  * [Мобильное приложение для Android устройств](acryl-client/mobile-apps/android.md)
+    * [Управление аккаунтом (Android)](acryl-client/mobile-apps/android/account-management.md)
+      * [Создание аккаунта (Android)](acryl-client/mobile-apps/android/account-management/creating-an-account.md)
+      * [Восстановление аккаунта (Android)](acryl-client/mobile-apps/android/account-management/restore-an-account.md)
+      * [Вход в аккаунт (Android)](acryl-client/mobile-apps/android/account-management/signing-in-to-your-account.md)
+      * [Ваш Acryl адрес (Android)](acryl-client/mobile-apps/android/account-management/acryl-address.md)
+      * [Создание персонального Псевдонима (Android)](acryl-client/mobile-apps/android/account-management/creating-an-alias.md)
+      * [Лизинг Acryl токенов (Android)](acryl-client/mobile-apps/android/account-management/acryl-leasing.md)
+    * [Управление ассетами (Android)](acryl-client/mobile-apps/android/assets-management.md)
+      * [Сжигание токена (Android)](acryl-client/mobile-apps/android/assets-management/burn-an-asset.md)
+    * [Переводы и шлюзы (Android)](acryl-client/mobile-apps/android/wallet-management.md)
+      * [Acryl переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/acryl-transfers.md)
+      * [Vostok переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/vostok-transfers.md)
+      * [Переводы Ассетов (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/asset-transfers.md)
+      * [Bitcoin переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/bitcoin-transfers.md)
+      * [Ethereum переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/ethereum-transfers.md)
+      * [Litecoin переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/litecoin-transfers.md)
+      * [Zcash переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/zcash-transfers.md)
+      * [Bitcoin Cash переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/bitcoin-cash-transfers.md)
+      * [Dash переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/dash-transfers.md)
+      * [Monero переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/monero-transfers.md)
+      * [Bitcoin SV переводы (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/bitcoin-sv-transfers.md)
+      * [Покупка Acryl с банковской карты (Android)](acryl-client/mobile-apps/android/transfers-and-gateways/buying-acryl-using-card.md)
+    * [Acryl DEX (Android)](acryl-client/mobile-apps/android/acryl-dex/about-acryl-dex.md)
+      * [Использование биржи DEX (Android)](acryl-client/mobile-apps/android/acryl-dex/start-trading-on-the-acryl-dex.md)
+=======
 * [Установка Waves приложения](waves-client/install-waves-client.md)
 * [Заметки о безопасности](waves-client/security-notes.md)
 * [Управление аккаунтом](waves-client/account-management.md)
@@ -170,34 +264,35 @@
       * [Покупка Waves с банковской карты (Android)](waves-client/mobile-apps/android/transfers-and-gateways/buying-waves-using-card.md)
     * [Waves DEX (Android)](waves-client/mobile-apps/android/waves-dex/about-waves-dex.md)
       * [Использование биржи DEX (Android)](waves-client/mobile-apps/android/waves-dex/start-trading-on-the-waves-dex.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
-* [Часто задаваемые вопросы](waves-client/faq.md)
-  * [Подозрительные транзакции](waves-client/security/spam-transactions.md)
-  * [Один Seed - Один Waves адрес](waves-client/frequently-asked-questions-faq/account-management/one-seed.md)
-  * [Что такое SEED фраза?](waves-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
-  * [У меня есть достаточно Waves, но я не могу открыть ордер](waves-client/frequently-asked-questions-faq/account-management/waves-fee.md)
-  * [Как получить достаточно Waves для оплаты комиссии?](waves-client/frequently-asked-questions-faq/waves-dex/enough-waves.md)
-  * [Время исполнения ордера](waves-client/frequently-asked-questions-faq/waves-dex/order-time.md)
-  * [Поиск токена на бирже DEX используя Asset ID](waves-client/frequently-asked-questions-faq/waves-dex/asset-id.md)
-  * [Что такое платежный шлюз?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
-  * [Обработка Ethereum платежей и смарт-контракты](waves-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
-  * [Что такое эйрдроп \(Airdrop\)?](waves-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
-  * [Активация Ночного режима?](waves-client/frequently-asked-questions-faq/account-management/dark-mode.md)
+* [Часто задаваемые вопросы](acryl-client/faq.md)
+  * [Подозрительные транзакции](acryl-client/security/spam-transactions.md)
+  * [Один Seed - Один Acryl адрес](acryl-client/frequently-asked-questions-faq/account-management/one-seed.md)
+  * [Что такое SEED фраза?](acryl-client/frequently-asked-questions-faq/account-management/seed-phrase.md)
+  * [У меня есть достаточно Acryl, но я не могу открыть ордер](acryl-client/frequently-asked-questions-faq/account-management/acryl-fee.md)
+  * [Как получить достаточно Acryl для оплаты комиссии?](acryl-client/frequently-asked-questions-faq/acryl-dex/enough-acryl.md)
+  * [Время исполнения ордера](acryl-client/frequently-asked-questions-faq/acryl-dex/order-time.md)
+  * [Поиск токена на бирже DEX используя Asset ID](acryl-client/frequently-asked-questions-faq/acryl-dex/asset-id.md)
+  * [Что такое платежный шлюз?](acryl-client/frequently-asked-questions-faq/transfers-and-gateways/payment-gateway.md)
+  * [Обработка Ethereum платежей и смарт-контракты](acryl-client/frequently-asked-questions-faq/transfers-and-gateways/ethereum-smartcontract-transfers.md)
+  * [Что такое эйрдроп \(Airdrop\)?](acryl-client/frequently-asked-questions-faq/transfers-and-gateways/airdrop.md)
+  * [Активация Ночного режима?](acryl-client/frequently-asked-questions-faq/account-management/dark-mode.md)
 
 ## DEX
 
-* [О Waves DEX](waves-dex/about-waves-dex.md)
-* [Использование биржи DEX](waves-dex/start-trading-on-the-waves-dex.md)
+* [О Acryl DEX](acryl-dex/about-acryl-dex.md)
+* [Использование биржи DEX](acryl-dex/start-trading-on-the-acryl-dex.md)
 
 ## Explorer
 
-* [О Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Пополнение баланса аккаунта в тестовой сети](waves-explorer/account-balance-top-up-in-the-test-network.md)
+* [О Acryl Explorer](acryl-explorer/about-acryl-explorer.md)
+* [Пополнение баланса аккаунта в тестовой сети](acryl-explorer/account-balance-top-up-in-the-test-network.md)
 
 ## Keeper
 
-* [О Waves Keeper](waves-keeper/about-waves-keeper.md)
-* [Начало работы с Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
+* [О Acryl Keeper](acryl-keeper/about-acryl-keeper.md)
+* [Начало работы с Acryl Keeper](acryl-keeper/how-to-use-acryl-keeper.md)
 
 ## RIDE
 
@@ -279,13 +374,20 @@
 
 * [Инструменты](smart-contracts/tools.md)
   * [REPL](smart-contracts/tools/repl.md)
-  * [Waves IDE](smart-contracts/tools/waves-ide.md)
+  * [Acryl IDE](smart-contracts/tools/acryl-ide.md)
 * [Написание dApps](smart-contracts/writing-dapps.md)
-* [Простое голосование на блокчейне Waves](smart-contracts/simple-voting-on-the-waves-blockchain.md)
+* [Простое голосование на блокчейне Acryl](smart-contracts/simple-voting-on-the-acryl-blockchain.md)
 * [Статьи о dApps](smart-contracts/articles-on-dapps.md)
 
 ## Node
 
+<<<<<<< HEAD
+* [Ограничения API пула публичных нод](acryl-node/api-limitations-of-the-pool-of-public-nodes.md)
+* [Расширения](acryl-node/extensions.md)
+  * [gRPC Server](acryl-node/extensions/grpc-server.md)
+    * [Установка gRPC Server](acryl-node/extensions/grpc-server/grpc-server-installation.md)
+  * [Матчер](acryl-node/extensions/matcher.md)
+=======
 * [Предварительные требования](waves-node/prerequisites.md)
     * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
 * [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
@@ -294,27 +396,32 @@
   * [gRPC Server](waves-node/extensions/grpc-server.md)
     * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
   * [Матчер](waves-node/extensions/matcher.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## API and SDK
 
-* [Клиентские библиотеки](waves-api-and-sdk/client-libraries.md)
+* [Клиентские библиотеки](acryl-api-and-sdk/client-libraries.md)
 
 ## Oracles
 
+<<<<<<< HEAD
+* [Оракул](acryl-oracles/oracle.md)
+=======
 * [О Waves Oracles](waves-oracles/about-waves-oracles.md)
 * [Создание карточки оракула при помощи Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
 * [Создание карточки оракула при помощи транзакции данных](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
 * [Карточка оракула](waves-oracles/oracle-card.md)
 * [Обновление карточки оракула](waves-oracles/updating-oracle-card.md)
 * [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## Token Rating
 
-* [О Waves Token Rating](waves-token-rating/about-waves-token-rating.md)
-* [Интерфейс пользователя](waves-token-rating/user-interface.md)
-* [Формула рейтинга](waves-token-rating/rating-formula.md)
-* [Транзакция данных с оценкой пользователя](waves-token-rating/data-transaction-with-user-s-rate.md)
-* [Транзакция данных оракула Token Rating](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+* [О Acryl Token Rating](acryl-token-rating/about-acryl-token-rating.md)
+* [Интерфейс пользователя](acryl-token-rating/user-interface.md)
+* [Формула рейтинга](acryl-token-rating/rating-formula.md)
+* [Транзакция данных с оценкой пользователя](acryl-token-rating/data-transaction-with-user-s-rate.md)
+* [Транзакция данных оракула Token Rating](acryl-token-rating/data-transaction-of-the-token-rating-oracle.md)
 
 ## Разное
 
@@ -325,4 +432,4 @@
 * [Децентрализованная биржа (DEX)](platform-features/decentralized-cryptocurrency-exchange-dex.md)
 * [Fair Pos](platform-features/fair-pos.md)
 * [Leased Proof Of Stake (Lpos)](platform-features/leased-proof-of-stake-lpos.md)
-* [Официальные ресурсы](overview/waves-official-resources.md)
+* [Официальные ресурсы](overview/acryl-official-resources.md)

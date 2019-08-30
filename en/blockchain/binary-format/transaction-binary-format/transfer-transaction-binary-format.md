@@ -8,9 +8,9 @@
 | 2 | Signature | ByteStr \(Array[Byte]\) | 64
 | 3 | Transaction type | Byte \(constant, value = 4\) | 1
 | 4 | Sender's public key | PublicKey \(Array[Byte]\) | 32
-| 5.1 | Asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 5.1 | Asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 5.2 | Asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 5.1\)
-| 6.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 6.1 | Fee's asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 6.2 | Fee's asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 6.1\)
 | 7 | Timestamp | Long | 8
 | 8 | Amount | Long | 8
@@ -25,9 +25,9 @@ The transaction's signature is calculated from the following bytes:
 | --- | --- | --- | --- |
 | 1 | Transaction type | Byte \(constant, value = 4\) | 1
 | 2 | Sender's public key | PublicKey \(Array[Byte]\) | 32
-| 3.1 | Asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 3.1 | Asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 3.2 | Asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 3.1\)
-| 4.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 4.1 | Fee's asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 4.2 | Fee's asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 4.1\)
 | 5 | Timestamp | Long | 8 |
 | 6 | Amount | Long | 8 |
@@ -44,9 +44,9 @@ The transaction's signature is calculated from the following bytes:
 | 2 | Transaction type | Byte \(constant, value = 4\) | 1
 | 3 | Version | Byte | 1
 | 4 | Sender's public key | PublicKey \(Array[Byte]\) | 32
-| 5.1 | Asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 5.1 | Asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 5.2 | Asset ID\* | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 5.1\)
-| 6.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 6.1 | Fee's asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 6.2 | Fee's asset ID | AssetId \(ByteStr = Array[Byte]\) | 32 or 0 \(depends on the byte in 6.1\)
 | 7 | Timestamp | Long | 8
 | 8 | Amount | Long | 8
@@ -56,5 +56,5 @@ The transaction's signature is calculated from the following bytes:
 | 11.2 | Attachment | Array[Byte] | N <= 140
 | 12 | Proofs | Proofs | See Proofs structure
 
-* The fee only in Waves;
+* The fee only in Acryl;
 * You may sign your transaction in your way and place the signature in proofs.

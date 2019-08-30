@@ -99,7 +99,7 @@
 | 7 | getIntegerValue(Address&#124;Alias, String): Int | Получает целое число по ключу. Выбрасывает исключение, если данных нет | 100 |
 | 8 | getString(Address&#124;Alias, String): String&#124;Unit | Получает строку по ключу | 100 |
 | 9 | getStringValue(Address&#124;Alias, String): String | Получает строку по ключу. Выбрасывает исключение, если данных нет | 100 |
-| 10 | wavesBalance(Address&#124;Alias): Int | Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md) | 109 |
+| 10 | acrylBalance(Address&#124;Alias): Int | Получает баланс аккаунта в [ACRYL](/blockchain/token/acryl.md) | 109 |
 
 ## [Функции списка](/ride/functions/built-in-functions/list-functions.md)
 

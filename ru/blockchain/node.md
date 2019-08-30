@@ -1,6 +1,6 @@
 # Узел
 
-**Узел** или **нода** — [хост](https://ru.wikipedia.org/wiki/Хост), который подключен к [сети блокчейна](/blockchain/blockchain-network.md) с помощью приложения [Waves Node](https://github.com/wavesplatform/Waves).
+**Узел** или **нода** — [хост](https://ru.wikipedia.org/wiki/Хост), который подключен к [сети блокчейна](/blockchain/blockchain-network.md) с помощью приложения [Acryl Node](https://github.com/acrylplatform/Acryl).
 
 Функциями узла являются:
 

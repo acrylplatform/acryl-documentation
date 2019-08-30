@@ -4,6 +4,6 @@
 
 Сложность скрипта оценивается исходя из сложностей всех [операторов](/ride/operators.md) и [функций](/ride/functions.md), составляющих скрипт.
 
-Сложность скрипта можно посмотреть в [Waves IDE](https://ide.wavesplatform.com); в настоящий момент она ограничена 4000:
+Сложность скрипта можно посмотреть в [Acryl IDE](https://ide.acrylplatform.com); в настоящий момент она ограничена 4000:
 
 <img src="img/complexity.png" alt="faucet" width="700"/>

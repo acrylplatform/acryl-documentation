@@ -12,8 +12,8 @@ RIDE используется для написания [скриптов](/ride
 
 ## IDE
 
-Для написания скриптов используйте [Waves IDE](/smart-contracts/tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+Для написания скриптов используйте [Acryl IDE](/smart-contracts/tools/acryl-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=acrylplatform.acryl-ride).
 
 ## История создания
 
-Язык RIDE появился в 2018 году. Тогда же была опубликована [белая книга](https://wavesplatform.com/files/docs/white_paper_waves_smart_contracts.pdf) по языку.  
+Язык RIDE появился в 2018 году. Тогда же была опубликована [белая книга](https://acrylplatform.com/files/docs/white_paper_acryl_smart_contracts.pdf) по языку.  

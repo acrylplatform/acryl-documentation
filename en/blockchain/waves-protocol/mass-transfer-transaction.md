@@ -66,16 +66,16 @@ where `N` is the number of recipients in transaction. The total is rounded up to
 
 ```cpp
 transfer {
-    WAVES = 100000
+    ACRYL = 100000
 }
 mass-transfer {
     # Fee for MassTransfer transaction is calculated as
     # [transfer fee] + [mass transfer fee] * [number of transfers in transaction]
-    WAVES = 50000
+    ACRYL = 50000
 }
 ```
 
-Mass Transfer transaction accepts fees in WAVES only.
+Mass Transfer transaction accepts fees in ACRYL only.
 
 ### Changes to REST API
 

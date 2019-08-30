@@ -12,6 +12,21 @@ TransferTransaction(feeAssetId: ByteVector|Unit, amount: Int, assetId: ByteVecto
 
 | # | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
+<<<<<<< HEAD
+| 1 | feeAssetId | ByteVector&#124;Unit | [Token](/blockchain/token.md) to pay the commission. Currently it can be [ACRYL](/blockchain/token/acryl.md) only |
+| 2 | amount | Int | Amount of tokens to transfer |
+| 3 | assetId | ByteVector&#124;Unit | ID of a token |
+| 4 | recipient | Address&#124;Alias | [Address](/blockchain/address.md) or [alias](/blockchain/alias.md) of the recipient |
+| 5 | attachment | ByteVector | Arbitrary data attached to transfer |
+| 6 | id | ByteVector | [Transaction ID](/blockchain/transaction/transaction-id.md) |
+| 7 | fee | Int | [Transaction fee](/blockchain/transaction-fee.md) |
+| 8 | timestamp | Int | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) |
+| 9 | version | Int | Version of the [data structure](/blockchain/binary-format/transaction-binary-format.md) of a transaction |
+| 10 | sender | Address | [Address](/blockchain/address.md) of a transaction sender |
+| 11 | senderPublicKey | ByteVector | Account public key of a sender |
+| 12 | bodyBytes | ByteVector | Transaction's array of bytes |
+| 13 | proofs | List[ByteVector] | Array of [proofs](/blockchain/transaction-proof.md) |
+=======
 | 1 | feeAssetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | [Token](/blockchain/token.md) to pay the commission. Currently it can be [WAVES](/blockchain/token/waves.md) only |
 | 2 | amount | [Int](/ride/data-types/int.md) | Amount of tokens to transfer |
 | 3 | assetId | [ByteVector](/ride/data-types/byte-vector.md)&#124;[Unit](/ride/data-types/unit.md) | ID of a token |
@@ -25,3 +40,4 @@ TransferTransaction(feeAssetId: ByteVector|Unit, amount: Int, assetId: ByteVecto
 | 11 | senderPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Account public key of a sender |
 | 12 | bodyBytes | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction body bytes](/blockchain/transaction/transaction-body-bytes.md) |
 | 13 | proofs | [List](/ride/data-types/list.md)[[ByteVector](/ride/data-types/byte-vector.md)] | Array of [proofs](/blockchain/transaction/transaction-proof.md) |
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a

@@ -14,7 +14,7 @@
 | 8.3 | Payment 1 | Payment (Long, Option[AssetId]) | P1 <= 40 or 0 (depends on the short in 8.1)
 | ... | ... | ... | ... |
 | 9 | Fee | Long | 8
-| 10.1 | Fee's asset ID flag \(1 - asset, 0 - Waves\) |  | 1
+| 10.1 | Fee's asset ID flag \(1 - asset, 0 - Acryl\) |  | 1
 | 10.2 | Fee's asset ID | AssetId (ByteStr = Array[Byte]) | 32 or 0 (depends on the byte in 10.1)
 | 11 | Timestamp | Long | 8
 | 12 | Proofs | Proofs | See Proofs structure

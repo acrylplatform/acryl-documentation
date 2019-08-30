@@ -23,7 +23,7 @@ The value is the data of one of the types:
 
 Records are added to an account data storage using a [data transaction](/blockchain/transaction-type/data-transaction.md) or an invoke script transaction.
 
-The maximum size of a single record is [32 kilobytes](https://github.com/wavesplatform/Waves/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/wavesplatform/lang/v1/ContractLimits.scala#L11) for data transaction and [5 kilobytes](https://github.com/wavesplatform/Waves/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/wavesplatform/lang/v1/ContractLimits.scala#L20) for invoke script transaction.
+The maximum size of a single record is [32 kilobytes](https://github.com/acrylplatform/Acryl/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/acrylplatform/lang/v1/ContractLimits.scala#L11) for data transaction and [5 kilobytes](https://github.com/acrylplatform/Acryl/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/acrylplatform/lang/v1/ContractLimits.scala#L20) for invoke script transaction.
 
 ## Editing records
 

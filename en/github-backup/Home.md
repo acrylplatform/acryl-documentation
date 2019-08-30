@@ -1,12 +1,12 @@
 # For users
 
-[How to install the node](How-to-install-Waves-node)
+[How to install the node](How-to-install-Acryl-node)
 
-[How to configure the node](Waves-Node-Configuration-File)
+[How to configure the node](Acryl-Node-Configuration-File)
 
 # For developers
 
-[Waves Node REST API](Waves-Node-REST-API)
+[Acryl Node REST API](Acryl-Node-REST-API)
 
 [Cryptographic practical details](Cryptographic-practical-details)
 
@@ -16,8 +16,8 @@
 
 ## Smart Contracts
 
-[Approach and Capabilities](Waves-Smart-Contracts)
+[Approach and Capabilities](Acryl-Smart-Contracts)
 
-[Language and Standard Library Documentation](Waves-Contracts-Language-Description)
+[Language and Standard Library Documentation](Acryl-Contracts-Language-Description)
 
-[Syntax Processor and Executor Implementation Details](Waves-Contracts-Implementation-Details)
+[Syntax Processor and Executor Implementation Details](Acryl-Contracts-Implementation-Details)

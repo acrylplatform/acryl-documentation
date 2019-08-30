@@ -13,7 +13,7 @@
 | 7 | [getIntegerValue(Address&#124;Alias, String): Int](#get-integer-value) | Gets an integer by key. Throws an exception if there is no data | 100 |
 | 8 | [getString(Address&#124;Alias, String): String&#124;Unit](#get-string) | Gets a string by key | 100 |
 | 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value) | Gets a string by key. Throws an exception if there is no data | 100 |
-| 10 | [wavesBalance(Address&#124;Alias): Int](#waves-balance) | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
+| 10 | [acrylBalance(Address&#124;Alias): Int](#acryl-balance) | Gets account balance in [ACRYL](/blockchain/token/acryl.md) | 109 |
 
 ## assetBalance(Address|Alias, ByteVector): Int<a id="asset-balance"></a>
 
@@ -177,12 +177,12 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 
 The key.
 
-## wavesBalance(Address|Alias): Int<a id="waves-balance"></a>
+## acrylBalance(Address|Alias): Int<a id="acryl-balance"></a>
 
-Gets account balance in [WAVES](/blockchain/token/waves.md).
+Gets account balance in [ACRYL](/blockchain/token/acryl.md).
 
 ``` ride
-wavesBalance(addressOrAlias: Address|Alias): Int
+acrylBalance(addressOrAlias: Address|Alias): Int
 ```
 
 ### Parameters

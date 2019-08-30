@@ -23,7 +23,7 @@
 
 Записи добавляются в хранилище данных аккаунта с помощью [транзакции данных](/blockchain/transaction-type/data-transaction.md) или [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md).
 
-Максимальный размер одной записи — [32 килобайта](https://github.com/wavesplatform/Waves/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/wavesplatform/lang/v1/ContractLimits.scala#L11) для транзакции данных и [5 килобайтов](https://github.com/wavesplatform/Waves/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/wavesplatform/lang/v1/ContractLimits.scala#L20) для транзакции вызова скрипта.
+Максимальный размер одной записи — [32 килобайта](https://github.com/acrylplatform/Acryl/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/acrylplatform/lang/v1/ContractLimits.scala#L11) для транзакции данных и [5 килобайтов](https://github.com/acrylplatform/Acryl/blob/79442553314012cc0e2c1defca9d85f8a84e1770/lang/shared/src/main/scala/com/acrylplatform/lang/v1/ContractLimits.scala#L20) для транзакции вызова скрипта.
 
 ## Редактирование записей
 

@@ -72,6 +72,10 @@
   * [Validating node](blockchain/node/validating-node.md)
 * [Oracle](blockchain/oracle.md)
 * [Order](blockchain/order.md)
+<<<<<<< HEAD
+* [Smart account](blockchain/smart-account.md)
+* [Smart asset](blockchain/smart-asset.md)
+=======
 * [Token](blockchain/token.md)
   * [Non-fungible token](blockchain/token/non-fungible-token.md)
   * [Smart asset](blockchain/token/smart-asset.md)
@@ -79,6 +83,7 @@
   * [WAVES](blockchain/token/waves.md)
   * [WAVELET](blockchain/token/wavelet.md)
   * [WCT](blockchain/token/wct.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 * [Transaction](blockchain/transaction.md)
   * [Transaction ID](blockchain/transaction/transaction-id.md)
   * [Transaction body bytes](blockchain/transaction/transaction-body-bytes.md)
@@ -104,6 +109,8 @@
   * [Set script transaction](blockchain/transaction-type/set-script-transaction.md)
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 
+<<<<<<< HEAD
+=======
 ## Client
 
 * [Installation](waves-client/install-waves-client.md)
@@ -215,15 +222,11 @@
 * [Start trading](waves-dex/start-trading-on-the-waves-dex.md)
 * [DEX protocol](waves-dex/dex-protocol.md)
 
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 ## Explorer
 
-* [About Waves Explorer](waves-explorer/about-waves-explorer.md)
-* [Account balance top up in the test network](waves-explorer/account-balance-top-up-in-the-test-network.md)
-
-## Keeper
-
-* [About Waves Keeper](waves-keeper/about-waves-keeper.md)
-* [Getting started with Waves Keeper](waves-keeper/how-to-use-waves-keeper.md)
+* [About Acryl Explorer](acryl-explorer/about-acryl-explorer.md)
+* [Account balance top up in the test network](acryl-explorer/account-balance-top-up-in-the-test-network.md)
 
 ## RIDE
 
@@ -308,26 +311,67 @@
 
 * [What is a dApp](smart-contracts/what-is-a-dapp.md)
 * [Writing dApps](smart-contracts/writing-dapps.md)
-* [Simple voting on the Waves blockchain](/smart-contracts/simple-voting-on-the-waves-blockchain.md)
-* [Waves Smart Contracts](smart-contracts/waves-smart-contracts-overview.md)
+* [Simple voting on the Acryl blockchain](/smart-contracts/simple-voting-on-the-acryl-blockchain.md)
+* [Acryl Smart Contracts](smart-contracts/acryl-smart-contracts-overview.md)
 * [Smart Accounts](smart-contracts/smart-accounts.md)
 * [Smart Assets](smart-contracts/smart-assets.md)
 * [Tools](smart-contracts/tools.md)
   * [REPL](smart-contracts/tools/repl.md)
-  * [Waves IDE](smart-contracts/tools/waves-ide.md)
+  * [Acryl IDE](smart-contracts/tools/acryl-ide.md)
 * [Script performance tests](smart-contracts/script-performance-tests.md)
 * [Creating and deploying a script manually](smart-contracts/creating-and-deploying-a-script-manually.md)
 * [Video tutorials](smart-contracts/video-tutorials.md)
-  * [Introduction to the Waves blockchain, Waves Smart Accounts and Waves Smart Assets](smart-contracts/video-tutorials/introduction-to-the-waves-blockchain-waves-smart-accounts-and-waves-smart-assets.md)
-  * [Waves Smart Account with multisignature](smart-contracts/video-tutorials/waves-smart-account-with-multisignature.md)
-  * [Waves Smart Account with escrow service](smart-contracts/video-tutorials/waves-smart-account-with-escrow-service.md)
-  * [Creating multisignature account via Waves IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-ide-tools.md)
-  * [Creating multisignature account via Waves Client](smart-contracts/video-tutorials/creating-multisignature-account-via-waves-client.md)
-  * [Waves console explained](smart-contracts/video-tutorials/waves-console-explained.md)
+  * [Introduction to the Acryl blockchain, Acryl Smart Accounts and Acryl Smart Assets](smart-contracts/video-tutorials/introduction-to-the-acryl-blockchain-acryl-smart-accounts-and-acryl-smart-assets.md)
+  * [Acryl Smart Account with multisignature](smart-contracts/video-tutorials/acryl-smart-account-with-multisignature.md)
+  * [Acryl Smart Account with escrow service](smart-contracts/video-tutorials/acryl-smart-account-with-escrow-service.md)
+  * [Creating multisignature account via Acryl IDE tools](smart-contracts/video-tutorials/creating-multisignature-account-via-acryl-ide-tools.md)
+  * [Creating multisignature account via Acryl Client](smart-contracts/video-tutorials/creating-multisignature-account-via-acryl-client.md)
+  * [Acryl console explained](smart-contracts/video-tutorials/acryl-console-explained.md)
 * [Articles on dApps](smart-contracts/articles-on-dapps.md)
 
 ## Node
 
+<<<<<<< HEAD
+* [What is Acryl full node](acryl-node/what-is-a-full-node.md)
+* [How To install a node](acryl-node/how-to-install-a-node/how-to-install-a-node.md)
+  * [On Mac](acryl-node/how-to-install-a-node/on-mac.md)
+  * [On Windows](acryl-node/how-to-install-a-node/on-windows.md)
+  * [On Ubuntu](acryl-node/how-to-install-a-node/on-ubuntu.md)
+* [How to build and test a node](acryl-node/how-to-build-and-test-a-node.md)
+* [Options for getting actual blockchain](acryl-node/options-for-getting-actual-blockchain.md)
+  * [State downloading and applying](acryl-node/options-for-getting-actual-blockchain/state-downloading-and-applying.md)
+  * [Import from the blockchain](acryl-node/options-for-getting-actual-blockchain/import-from-the-blockchain.md)
+  * [Export to the blockchain](acryl-node/options-for-getting-actual-blockchain/export-and-import-from-the-blockchain.md)
+* [Upgrading](acryl-node/upgrading.md)
+* [How to rollback a node](acryl-node/how-to-rollback-a-node.md)
+* [Acryl node in Docker](acryl-node/acryl-node-in-docker.md)
+* [Joining testnet](acryl-node/joining-testnet.md)
+* [Private Acryl network](acryl-node/private-acryl-network.md)
+* [Extensions](acryl-node/extensions.md)
+  * [gRPC Server](acryl-node/extensions/grpc-server.md)
+    * [gRPC Server installation](acryl-node/extensions/grpc-server/grpc-server-installation.md)
+  * [Matcher](acryl-node/extensions/matcher.md)
+* [Features](acryl-node/features/features.md)
+  * [Feature](acryl-node/features/feature.md)
+  * [Feature activation protocol](acryl-node/features/feature-activation-protocol.md)
+* [Node configuration file](acryl-node/node-configuration-file.md)
+* [Node configuration](acryl-node/node-configuration.md)
+* [Logging configuration](acryl-node/logging-configuration.md)
+* [Node API](acryl-node/node-api.md)
+  * [Address](acryl-node/node-api/address.md)
+  * [Lease Transactions](acryl-node/node-api/lease-transactions.md)
+  * [Assets](acryl-node/node-api/asset-transactions.md)
+    * [Public Functions](acryl-node/node-api/asset-transactions/public-functions.md)
+    * [Private Functions](acryl-node/node-api/asset-transactions/private-functions.md)
+    * [Distribution Methods](acryl-node/node-api/asset-transactions/distribution-methods.md)
+  * [Alias Transaction](acryl-node/node-api/alias-transaction.md)
+  * [Transactions](acryl-node/node-api/transactions.md)
+  * [Peers](acryl-node/node-api/peers.md)
+  * [Blocks](acryl-node/node-api/blocks.md)
+  * [Utils](acryl-node/node-api/utils.md)
+  * [Examples of transactions](acryl-node/node-api/example-transactions.md)
+* [API limitations of the pool of public nodes](acryl-node/api-limitations-of-the-pool-of-public-nodes.md)
+=======
 * [What is Waves full node](waves-node/what-is-a-full-node.md)
 * [Prerequisites](waves-node/prerequisites.md)
   * [Hardware requirements](waves-node/prerequisites/hardware-requirements.md)
@@ -369,34 +413,38 @@
   * [Utils](waves-node/node-api/utils.md)
   * [Examples of transactions](waves-node/node-api/example-transactions.md)
 * [API limitations of the pool of public nodes](waves-node/api-limitations-of-the-pool-of-public-nodes.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## API and SDK
 
-* [DEX API: Waves node rest API](waves-api-and-sdk/dex-api.md)
-  * [Matcher](waves-api-and-sdk/dex-api/matcher.md)
-* [Waves Client API](waves-api-and-sdk/client-api/overview.md)
-  * [Web auth API](waves-api-and-sdk/client-api/auth-api.md)
-  * [Payment API](waves-api-and-sdk/client-api/payments-api.md)
-* [Waves Keeper API](waves-api-and-sdk/waves-keeper-api.md)
-* [Waves data service API](waves-api-and-sdk/waves-data-service-api.md)
-* [Waves Games](waves-api-and-sdk/waves-gaming-api.md)
-  * [Waves Games API](waves-api-and-sdk/waves-gaming-api/waves-games-api.md)
-  * [Examples](waves-api-and-sdk/waves-gaming-api/examples.md)
-* [Client libraries](waves-api-and-sdk/client-libraries.md)
-  * [PyWaves](waves-api-and-sdk/client-libraries/pywaves.md)
-  * [WavesJ](waves-api-and-sdk/client-libraries/wavesj.md)
-  * [WavesCS](waves-api-and-sdk/client-libraries/wavescs.md)
-  * [WavesC](waves-api-and-sdk/client-libraries/waves-c.md)
-  * [GoWaves](waves-api-and-sdk/client-libraries/gowaves.md)
-  * [WavesRS](waves-api-and-sdk/client-libraries/wavesrs.md)
-  * [Waves signature adapter](waves-api-and-sdk/client-libraries/waves-signature-adapter.md)
-  * [Waves transactions](waves-api-and-sdk/client-libraries/waves-transactions.md)
+* [DEX API: Acryl node rest API](acryl-api-and-sdk/dex-api.md)
+  * [Matcher](acryl-api-and-sdk/dex-api/matcher.md)
+* [Acryl Client API](acryl-api-and-sdk/client-api/overview.md)
+  * [Web auth API](acryl-api-and-sdk/client-api/auth-api.md)
+  * [Payment API](acryl-api-and-sdk/client-api/payments-api.md)
+* [Acryl data service API](acryl-api-and-sdk/acryl-data-service-api.md)
+* [Acryl Games](acryl-api-and-sdk/acryl-gaming-api.md)
+  * [Acryl Games API](acryl-api-and-sdk/acryl-gaming-api/acryl-games-api.md)
+  * [Examples](acryl-api-and-sdk/acryl-gaming-api/examples.md)
+* [Client libraries](acryl-api-and-sdk/client-libraries.md)
+  * [PyAcryl](acryl-api-and-sdk/client-libraries/pyacryl.md)
+  * [AcrylJ](acryl-api-and-sdk/client-libraries/acrylj.md)
+  * [AcrylCS](acryl-api-and-sdk/client-libraries/acrylcs.md)
+  * [AcrylC](acryl-api-and-sdk/client-libraries/acryl-c.md)
+  * [GoAcryl](acryl-api-and-sdk/client-libraries/goacryl.md)
+  * [AcrylRS](acryl-api-and-sdk/client-libraries/acrylrs.md)
+  * [Acryl signature adapter](acryl-api-and-sdk/client-libraries/acryl-signature-adapter.md)
+  * [Acryl transactions](acryl-api-and-sdk/client-libraries/acryl-transactions.md)
   * [Community libraries](development-and-api/client-libraries/unofficial-libraries.md)
-* [Examples](waves-api-and-sdk/examples.md)
-  * [Create your first crypto trading Bot](waves-api-and-sdk/examples/trading-bot.md)
+* [Examples](acryl-api-and-sdk/examples.md)
+  * [Create your first crypto trading Bot](acryl-api-and-sdk/examples/trading-bot.md)
 
 ## Oracles
 
+<<<<<<< HEAD
+* [About Acryl Oracles](acryl-oracles/about-acryl-oracles.md)
+* [Oracle](acryl-oracles/oracle.md)
+=======
 * [About Waves Oracles](waves-oracles/about-waves-oracles.md)
 * [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
 * [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
@@ -411,20 +459,21 @@
 * [Rating formula](waves-token-rating/rating-formula.md)
 * [Data transaction with user's rate](waves-token-rating/data-transaction-with-user-s-rate.md)
 * [Data transaction of the Token Rating oracle](waves-token-rating/data-transaction-of-the-token-rating-oracle.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## Miscellaneous
 
 * [Contributing](resources/contributing.md)
 * [News archive](miscellaneous/news-archive.md)
-* [Waves protocol](blockchain/waves-protocol.md)
-  * [Cryptographic practical details](blockchain/waves-protocol/cryptographic-practical-details.md)
-  * [Validation rules](blockchain/waves-protocol/validation-rules.md)
-  * [Waves-NG solution](blockchain/waves-protocol/waves-ng-solution.md)
-  * [Sponsored fee](blockchain/waves-protocol/sponsored-fee.md)
-  * [Leased Proof of Stake (LPoS)](blockchain/waves-protocol/leased-proof-of-stake-lpos.md)
-  * [Fair Proof of Stake](blockchain/waves-protocol/fair-pos.md)
-  * [Waves-NG protocol](blockchain/waves-protocol/waves-ng-protocol.md)
-  * [Activation protocol](blockchain/waves-protocol/activation-protocol.md)
+* [Acryl protocol](blockchain/acryl-protocol.md)
+  * [Cryptographic practical details](blockchain/acryl-protocol/cryptographic-practical-details.md)
+  * [Validation rules](blockchain/acryl-protocol/validation-rules.md)
+  * [Acryl-NG solution](blockchain/acryl-protocol/acryl-ng-solution.md)
+  * [Sponsored fee](blockchain/acryl-protocol/sponsored-fee.md)
+  * [Leased Proof of Stake (LPoS)](blockchain/acryl-protocol/leased-proof-of-stake-lpos.md)
+  * [Fair Proof of Stake](blockchain/acryl-protocol/fair-pos.md)
+  * [Acryl-NG protocol](blockchain/acryl-protocol/acryl-ng-protocol.md)
+  * [Activation protocol](blockchain/acryl-protocol/activation-protocol.md)
 * [Proposals](resources/proposals.md)
   * [Asset verification protocol](resources/asset-verification-protocol.md)
   * [Trezor hardware wallet integration specification](resources/trezor-hardware-wallet-integration-specification.md)

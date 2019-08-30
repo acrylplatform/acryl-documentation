@@ -22,6 +22,18 @@
 * [Операторы](ride/operators.md)
 * [Определение](ride/base-concepts/definition.md)
 * [Переменные](ride/variables.md)
+<<<<<<< HEAD
+* [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/acrylplatform/acryl-documentation/pull/1465/files)
+* Структуры транзакций
+  * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
+  * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
+  * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
+  * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
+  * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
+  * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
+  * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
+  * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
+=======
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
 * Структуры
   * Общие структуры
@@ -39,6 +51,7 @@
     * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
     * [SetScriptTransaction](ride/structures/transaction-structures/set-script-transaction.md)
     * [TransferTransaction](ride/structures/transaction-structures/transfer-transaction.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ### Блокчейн
 
@@ -53,6 +66,15 @@
   * [Байт сети](blockchain/blockchain-network/chain-id.md)
 * [Оракул](blockchain/oracle.md)
 * Тип транзакции
+<<<<<<< HEAD
+  * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/acrylplatform/acryl-documentation/pull/1456/files)
+* Узел
+  * [Валидирующий узел](blockchain/node/validating-node.md)
+
+## Acryl Node
+
+* [Установка gRPC Server](acryl-node/extensions/grpc-server/grpc-server-installation.md)
+=======
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)
 * Токен  
   * [ID токена](blockchain/token/token-id.md)
@@ -78,6 +100,7 @@
 * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
 * [Предварительные требования](waves-node/prerequisites.md)
     * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## Июльские статьи
 
@@ -111,12 +134,12 @@
 * Узел
   * [Майнящий узел](blockchain/node/mining-node.md)
 
-### Waves Node
+### Acryl Node
 
 * Расширения
-  * [gRPC Server](waves-node/extensions/grpc-server.md)
-    * [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
-  * [Матчер](waves-node/extensions/matcher.md)
+  * [gRPC Server](acryl-node/extensions/grpc-server.md)
+    * [Установка gRPC Server](acryl-node/extensions/grpc-server/grpc-server-installation.md)
+  * [Матчер](acryl-node/extensions/matcher.md)
 
 ### RIDE
 
@@ -144,4 +167,4 @@
   * [Вызываемая функция](ride/functions/callable-function.md)
   * [Функция-верификатор](ride/functions/verifier-function.md)
 
-> Посмотреть репозиторий документации на [Github](https://github.com/wavesplatform/waves-documentation)
+> Посмотреть репозиторий документации на [Github](https://github.com/acrylplatform/acryl-documentation)

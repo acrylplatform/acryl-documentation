@@ -1,5 +1,5 @@
 # Standard Library
-{% prettylink link="https://cdn.rawgit.com/wavesplatform/waves-documentation/master/en/doc.html" %}Full Details{% endprettylink %}
+{% prettylink link="https://cdn.rawgit.com/acrylplatform/acryl-documentation/master/en/doc.html" %}Full Details{% endprettylink %}
 
 # Input variables
 |vars|type|doc|

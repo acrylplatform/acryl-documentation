@@ -1,6 +1,6 @@
 # Транзакция лизинга
 
-**Транзакция лизинга** — [транзакция](/blockchain/transaction.md), которая передаёт [WAVES](/blockchain/token/waves.md) в [лизинг](/blockchain/leasing.md) другому [аккаунту](/blockchain/account.md).
+**Транзакция лизинга** — [транзакция](/blockchain/transaction.md), которая передаёт [ACRYL](/blockchain/token/acryl.md) в [лизинг](/blockchain/leasing.md) другому [аккаунту](/blockchain/account.md).
 
 ## Бинарный формат
 

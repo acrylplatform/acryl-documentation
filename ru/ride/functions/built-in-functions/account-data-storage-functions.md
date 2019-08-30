@@ -13,7 +13,7 @@
 | 7 | [getIntegerValue(Address&#124;Alias, String): Int](#get-integer-value)  | Получает целое число по ключу. Выбрасывает исключение, если данных нет | 100 |
 | 8 | [getString(Address&#124;Alias, String): String&#124;Unit](#get-string)  | Получает строку по ключу | 100 |
 | 9 | [getStringValue(Address&#124;Alias, String): String](#get-string-value)  | Получает строку по ключу. Выбрасывает исключение, если данных нет | 100 |
-| 10 | [wavesBalance(Address&#124;Alias): Int](#waves-balance)  | Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md) | 100 |
+| 10 | [acrylBalance(Address&#124;Alias): Int](#acryl-balance)  | Получает баланс аккаунта в [ACRYL](/blockchain/token/acryl.md) | 100 |
 
 ## assetBalance(Address|Alias, ByteVector): Int<a id="asset-balance"></a>
 
@@ -177,12 +177,12 @@ getStringValue(addressOrAlias: Address|Alias, key: String): String
 
 Ключ.
 
-## wavesBalance(Address|Alias): Int<a id="waves-balance"></a>
+## acrylBalance(Address|Alias): Int<a id="acryl-balance"></a>
 
-Получает баланс аккаунта в [WAVES](/blockchain/token/waves.md).
+Получает баланс аккаунта в [ACRYL](/blockchain/token/acryl.md).
 
 ``` ride
-wavesBalance(addressOrAlias: Address|Alias): Int
+acrylBalance(addressOrAlias: Address|Alias): Int
 ```
 
 ### Параметры

@@ -6,9 +6,9 @@ An **issue transaction** is a [transaction](/blockchain/transaction.md) that [is
 
 The issue of an [NFT](/blockchain/token/non-fungible-token.md) is made by an issue transaction that has the "Amount" field equal 1, and the "Number of decimal places" and "Reissue flag" fields equal 0.
 
-The fee for the issue of a single NFT is 0.001 [WAVES](/blockchain/token/waves.md).
+The fee for the issue of a single NFT is 0.001 [ACRYL](/blockchain/token/acryl.md).
 
-To issue NFTs you can use the [waves-games](https://www.npmjs.com/package/@waves/waves-games) npm package.
+To issue NFTs you can use the [acryl-games](https://www.npmjs.com/package/@acryl/acryl-games) npm package.
 
 ### JSON representation of an issue transaction of an NFT
 

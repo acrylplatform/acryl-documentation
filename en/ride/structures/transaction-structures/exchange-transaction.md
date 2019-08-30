@@ -16,7 +16,7 @@ ExchangeTransaction(buyOrder: Order, sellOrder: Order, price: Int, amount: Int, 
 | 2 | sellOrder | [Order](/ride/structures/common-structures/order.md) | Token sell order |
 | 3 | price | [Int](/ride/data-types/int.md) | Price of exchanging token |
 | 4 | amount | [Int](/ride/data-types/int.md) | Amount of exchanging tokens |
-| 5 | buyMatcherFee | [Int](/ride/data-types/int.md) | [Matcher](/waves-node/extensions/matcher.md)'s purchase fee |
+| 5 | buyMatcherFee | [Int](/ride/data-types/int.md) | [Matcher](/acryl-node/extensions/matcher.md)'s purchase fee |
 | 6 | sellMatcherFee | [Int](/ride/data-types/int.md) | Matcher's sell fee |
 | 7 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Transaction ID](/blockchain/transaction/transaction-id.md) |
 | 8 | fee | [Int](/ride/data-types/int.md) | [Transaction fee](/blockchain/transaction/transaction-fee.md) |

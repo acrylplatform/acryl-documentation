@@ -2,7 +2,7 @@
 
 # 1. Features
 
-New versions of Waves software bring new features. Those new features should be activated by many nodes at the same time. Before now features were activated by timestamps. That put node owners in a tight time frame to update their nodes. Failure to update a node in time led to the unintentional participation to a fork. Features Activation Protocol gives the Waves community the ability to apply new features with a suitable pace. Or not apply some of them at all.
+New versions of Acryl software bring new features. Those new features should be activated by many nodes at the same time. Before now features were activated by timestamps. That put node owners in a tight time frame to update their nodes. Failure to update a node in time led to the unintentional participation to a fork. Features Activation Protocol gives the Acryl community the ability to apply new features with a suitable pace. Or not apply some of them at all.
 
 ## 1.1 Features identification
 

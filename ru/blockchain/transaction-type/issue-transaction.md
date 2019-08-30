@@ -6,9 +6,9 @@
 
 Выпуск одного [NFT](/blockchain/token/non-fungible-token.md) производится с помощью транзакции выпуска, у которой значение поля "Количество токенов" равняется 1, а значения полей "Число знаков после запятой" и "Флаг довыпуска" — 0.
 
-Комиссия за выпуск одного NFT составляет 0,001 [WAVES](/blockchain/token/waves.md).
+Комиссия за выпуск одного NFT составляет 0,001 [ACRYL](/blockchain/token/acryl.md).
 
-Для выпуска NFT вы можете использовать npm-пакет [waves-games](https://www.npmjs.com/package/@waves/waves-games).
+Для выпуска NFT вы можете использовать npm-пакет [acryl-games](https://www.npmjs.com/package/@acryl/acryl-games).
 
 ### JSON-представление транзакции выпуска не взаимозаменяемого токена
 

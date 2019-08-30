@@ -2,7 +2,7 @@
 
 ## Default transaction validation
 
-After the creation of a Waves account, each outgoing from this account transaction is checked for validity. If a transaction is valid, then it makes it to a generated block in the blockchain, if not — it's rejected by the blockchain.
+After the creation of a Acryl account, each outgoing from this account transaction is checked for validity. If a transaction is valid, then it makes it to a generated block in the blockchain, if not — it's rejected by the blockchain.
 
 By default, _only_ the fact that an outgoing transaction belongs to the owner of the account it was sent from, is checked. To check that, the transaction's binary data, the account owner's public key and the digital signature of the transaction are run through special `sigVerify` function. If the `sigVerify` function returns `true` — the transaction is considered valid, otherwise — invalid.
 

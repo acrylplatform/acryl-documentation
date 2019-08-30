@@ -13,7 +13,7 @@
 | 7 | getIntegerValue(Address&#124;Alias, String): Int | Gets an integer by key. Throws an exception if there is no data | 100 |
 | 8 | getString(Address&#124;Alias, String): String&#124;Unit | Gets a string by key | 100 |
 | 9 | getStringValue(Address&#124;Alias, String): String | Gets a string by key. Throws an exception if there is no data | 100 |
-| 10 | wavesBalance(Address&#124;Alias): Int | Gets account balance in [WAVES](/blockchain/token/waves.md) | 109 |
+| 10 | acrylBalance(Address&#124;Alias): Int | Gets account balance in [ACRYL](/blockchain/token/acryl.md) | 109 |
 
 ## [Blockchain functions](/ride/functions/built-in-functions/blockchain-functions.md)
 

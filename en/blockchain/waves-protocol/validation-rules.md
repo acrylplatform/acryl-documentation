@@ -21,7 +21,7 @@ Issue transaction is valid then:
 
 1. Sender's address is valid. If not, _InvalidAddress _validation result will be returned.
 2. Quantity of asset is positive, otherwise _NegativeAmount _validation result is returned.
-3. Transaction's fee is more or equal to _MinFee _\(100000000 wavelets = 1 Wave\), in other case _InsufficientFee _validation result is returned.
+3. Transaction's fee is more or equal to _MinFee _\(100000000 acrylettes = 1 Acryl\), in other case _InsufficientFee _validation result is returned.
 4. Size of description is less or equal to _MaxDescriptionLength _\(1000 bytes\), otherwise _TooBigArray _is returned.
 5. Size of name is more or equal to _MinAssetNameLength _and less or equal to _MaxAssetNameLength_, in other case _InvalidName _validation result will be returned.
 6. Decimals is positive and less or equal to _MaxDecimals_, in other case _TooBigArray _is returned.
@@ -54,7 +54,7 @@ Block's consensus data is valid then:
 3. Block chain contains parent block or block chain height is equal 1.
 4. Block's base target is valid.
 5. Block's generator signature is valid.
-6. Generator's balance is more or equal then _MinimalEffectiveBalanceForGeneration _\(1000000000000 wavelets\). This rule always works on Testnet and works only after 1479168000000 on Mainnet.
+6. Generator's balance is more or equal then _MinimalEffectiveBalanceForGeneration _\(1000000000000 acrylettes\). This rule always works on Testnet and works only after 1479168000000 on Mainnet.
 7. Block's hit is less then calculated block's target.
 
 ## Transactions data validation

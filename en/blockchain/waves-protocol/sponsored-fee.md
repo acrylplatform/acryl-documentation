@@ -4,11 +4,11 @@
 
 Users can set a transaction fee nominated in an asset. However, node owners need to explicitly allow transaction fees in the asset by manually editing node configuration file. Otherwise, node won't be able to mine a block with these transactions.
 
-The sponsorship could be set for an asset. In this case miner will receive fee in Waves for processing of transactions, the fee of which is nominated in sponsored asset.
+The sponsorship could be set for an asset. In this case miner will receive fee in Acryl for processing of transactions, the fee of which is nominated in sponsored asset.
 
-After this transaction is confirmed, it becomes possible to use this asset as a fee (automatically for all miners). When transaction with fee in sponsored fee asset appears any miner just puts it to forged block. Instead of just transferring fee asset to miner's balance blockchain does a bit different thing: It automatically moves fee asset to sponsor's (issuer's) account and transfers standard transaction cost in waves from sponsor's to miner's accounts. In fact two miners will receive these waves because of NG 40/60 fee distributions.
+After this transaction is confirmed, it becomes possible to use this asset as a fee (automatically for all miners). When transaction with fee in sponsored fee asset appears any miner just puts it to forged block. Instead of just transferring fee asset to miner's balance blockchain does a bit different thing: It automatically moves fee asset to sponsor's (issuer's) account and transfers standard transaction cost in acryl from sponsor's to miner's accounts. In fact two miners will receive these acryl because of NG 40/60 fee distributions.
 
-Only the issuer of an asset can set up sponsorship. The sponsorship is set by giving the rate at which fee in an asset is converted to Waves.
+Only the issuer of an asset can set up sponsorship. The sponsorship is set by giving the rate at which fee in an asset is converted to Acryl.
 
 
 ### Implementation
@@ -52,19 +52,19 @@ JSON representation example:
 ### Fees
 
 #### Fee for Sponsored Fee Transaction
-A fee for a sponsor is payable in WAVES only. The fee for this transaction is fixed and equal to 1.0 WAVES.
+A fee for a sponsor is payable in ACRYL only. The fee for this transaction is fixed and equal to 1.0 ACRYL.
 
-#### Fee for miner in WAVES
-The total **miner's fee in WAVES for transactions** with a fee in sponsored assets can be compute by this formula:
+#### Fee for miner in ACRYL
+The total **miner's fee in ACRYL for transactions** with a fee in sponsored assets can be compute by this formula:
 ```
-    feeInWaves = assetFee * feeUnit / sponsorship
+    feeInAcryl = assetFee * feeUnit / sponsorship
 ```
 where:
 * `assetFee` - a fee in asset from transaction
 * `feeUnit` - for sponsorship is equal to 100000
 * `sponsorship` - the `minSponsoredAssetFee` value from Sponsored Fee Transaction for this asset
 
-But the total **block fee** for the block with sponsored transactions can be computed as the sum of transactions which have **only the fee in WAVES**. For example, if we have the block with only sponsored transactions, a fee for this block will be equal to 0.
+But the total **block fee** for the block with sponsored transactions can be computed as the sum of transactions which have **only the fee in ACRYL**. For example, if we have the block with only sponsored transactions, a fee for this block will be equal to 0.
 
 ### API
 
@@ -92,7 +92,7 @@ But the total **block fee** for the block with sponsored transactions can be com
 }
 ```
 
-Sponsorship information for the asset present in [asset description](../waves-node/node-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
+Sponsorship information for the asset present in [asset description](../acryl-node/node-api/asset-transactions/public-functions.md#get-assetsdetailsassetid).
 
 ### Constraints
 

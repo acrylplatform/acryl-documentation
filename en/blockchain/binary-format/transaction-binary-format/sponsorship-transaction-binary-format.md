@@ -16,7 +16,7 @@
 
 \* Zero value assume canceling sponsorship.
 
-**Note.** [**Here**](/waves-environment/waves-protocol/sponsored-fee.md) you can find more details about Sponsored Transaction.
+**Note.** [**Here**](/acryl-environment/acryl-protocol/sponsored-fee.md) you can find more details about Sponsored Transaction.
 
 Below is a sample **Sponsored transaction** encoded as **JSON**:
 

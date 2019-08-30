@@ -3,7 +3,7 @@
 # Overview
 
 Any blockchain requires a mechanism allowing to decide which chain of blocks is valid and to ensure there are no double-spending \(e.g. sending same money to different parties in separate chains\). There are several approaches to achieve this.  
-Waves use so-called Proof-of-Stake consensus algorithm. Here we'll describe it and compare with widely used Proof-of-Work algorithm which used, for example, in Bitcoin.
+Acryl use so-called Proof-of-Stake consensus algorithm. Here we'll describe it and compare with widely used Proof-of-Work algorithm which used, for example, in Bitcoin.
 
 Since each Blockchain is a system of decentralized “nodes” \(or computers confirming transactions occurring on the network and maintaining a decentralized consensus across the system\) it is important for these nodes, also known as “miners” in the Proof-of-Work system, or “validators” in the Proof-of-Stake system, to be incentivized to keep confirming transactions. The way in which “miner” or “validator” nodes confirm transactions and how those nodes are incentivized to do so - is the main distinction between Proof-of-Work and Proof-of-Stake.
 
@@ -56,33 +56,33 @@ With a PoS, the attacker would need to obtain 51% of the cryptocurrency to carry
 
 PoS has to constraints to avoid some kinds of attacks:
 
-* Minimum amount of WAVES to generate is 1000 WAVES
+* Minimum amount of ACRYL to generate is 1000 ACRYL
 * When a balance is increased generating balance will be increased after 1000 blocks.
 
 ## 2.1 Why we use Proof-of-Stake 
 
 * Significant advantages of Poof-of-Stake include energy efficiency
-* Waves Implement the Proof-of-Stake method for a more greener and cheaper distributed form of consensus.
+* Acryl Implement the Proof-of-Stake method for a more greener and cheaper distributed form of consensus.
 * In Proof-of-Stake, forgers are always those who own the coins minted.
 
 ![](/_assets/PoW.png)Figure 1, PoW vs PoS
 
 # 3. Leased Proof-of-Stake \(LPoS\) 
 
-LPoS is an enhanced version of Proof-of-Stake. In a regular Proof-of-Stake system, each node that holds a certain amount of cryptocurrency is eligible to add the next block to the blockchain but in the LPoS system, on the Waves Platform, users can lease their balance to full nodes. With LPoS, the user will have the ability to Lease WAVES from the wallet to different contractors which can pay a percentage as a reward. The larger the amount that is leased to a full node, the higher the chances of that full node being selected to produce the next block. If that full node is selected to produce the next block, the leaser will then receive a percentage of the transaction fee that is collected by the full node.
+LPoS is an enhanced version of Proof-of-Stake. In a regular Proof-of-Stake system, each node that holds a certain amount of cryptocurrency is eligible to add the next block to the blockchain but in the LPoS system, on the Acryl Platform, users can lease their balance to full nodes. With LPoS, the user will have the ability to Lease ACRYL from the wallet to different contractors which can pay a percentage as a reward. The larger the amount that is leased to a full node, the higher the chances of that full node being selected to produce the next block. If that full node is selected to produce the next block, the leaser will then receive a percentage of the transaction fee that is collected by the full node.
 
-In a Leased Proof-of-Stake environment, users can choose between running a full node or leasing their stake to a full node with receiving rewards. This system allows anyone to participate in the Waves network maintenance.
+In a Leased Proof-of-Stake environment, users can choose between running a full node or leasing their stake to a full node with receiving rewards. This system allows anyone to participate in the Acryl network maintenance.
 
-User can lease his WAVES through leasing on any computer or mobile device that has an internet browser since Waves provides a lite client solution that does not require "Miners", that are leasing their balance to store the whole Blockchain or to have the wallet running, Figure 2.
+User can lease his ACRYL through leasing on any computer or mobile device that has an internet browser since Acryl provides a lite client solution that does not require "Miners", that are leasing their balance to store the whole Blockchain or to have the wallet running, Figure 2.
 
 ![](/_assets/Webp.net-resizeimage-2.jpg)  
 Figure 2, LPOS System
 
-## 3.1 Benefits of leasing your WAVES 
+## 3.1 Benefits of leasing your ACRYL 
 
-Safety \(your WAVES never leave your wallet\):
+Safety \(your ACRYL never leave your wallet\):
 
-* Node operators can use your mining power to generate blocks without the user even having to send their WAVES at all.
+* Node operators can use your mining power to generate blocks without the user even having to send their ACRYL at all.
 * Leasing is safe as the coins never actually leave your wallet.
 * The users can discontinue leasing with a click of a button and just wait for the cancel lease transaction to go through, Figure 2.
 * The only thing to consider when leasing is choosing the right node operator, as operator's node may work with different efficiency and send back different percentage of income.
@@ -90,13 +90,13 @@ Safety \(your WAVES never leave your wallet\):
 Minimum Balance Required to Run a Node:
 
 * Operators don't need to put down a lot of capital to be able to operate a node.
-* The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of 1000 WAVES and create together a pool.
+* The balance of the node can be empty until there are enough people wishing to lease to it by reaching together the generating balance of 1000 ACRYL and create together a pool.
 
 Get Rewards:
 
 * Miner may send leaser a part of rewards according to his conditions.
 * The more transactions that are made on the network, the more rewards leasers get.
-* These rewards mostly come in the form of WAVES but also can come in the form of different tokens with the unique Waves feature where different tokens can be accepted as a fee.
+* These rewards mostly come in the form of ACRYL but also can come in the form of different tokens with the unique Acryl feature where different tokens can be accepted as a fee.
 
 # 3.2 Leasing Transactions 
 
@@ -120,9 +120,9 @@ leaseId: '9q7X84wFuVvKqRdDQeWbtBmpsHt9SXFbvPPtUuKBVxxr'
 
 # 3.2.3 Useful links for leasing 
 
-For Step-by-Step guide to lease your waves, click [here](/en/waves-client/account-management/waves-leasing.md).
+For Step-by-Step guide to lease your acryl, click [here](/en/acryl-client/account-management/acryl-leasing.md).
 
-For the List of generators click [here](http://dev.pywaves.org/generators/).
+For the List of generators click [here](http://dev.pyacryl.org/generators/).
 
-For Waves Nodes click [here](https://wavesplatform.com/leasing#nodes).
+For Acryl Nodes click [here](https://acrylplatform.com/leasing#nodes).
 

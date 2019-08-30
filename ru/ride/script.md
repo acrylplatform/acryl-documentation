@@ -16,4 +16,4 @@
 
 ## IDE
 
-Для написания скриптов используйте [Waves IDE](/smart-contracts/tools/waves-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride).
+Для написания скриптов используйте [Acryl IDE](/smart-contracts/tools/acryl-ide.md) или Visual Studio Code с [расширением RIDE](https://marketplace.visualstudio.com/items?itemName=acrylplatform.acryl-ride).

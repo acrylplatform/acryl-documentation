@@ -4,9 +4,13 @@ A **transaction fee** is a fee that an [account](/blockchain/account.md) owner p
 
 A sender can specify any amount of fee but not less than a certain amount. The larger the fee is, the quicker the transaction will be added to the new [block](/blockchain/block.md).
 
+<<<<<<< HEAD:en/blockchain/transaction-fee.md
+> If a [smart account](/blockchain/smart-account.md) transfers a [smart asset](/blockchain/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/ride/script/script-types/account-script.md) or an [asset script](/ride/script/script-types/asset-script.md), then the fee is increased by 0.004 ACRYL
+=======
 > If a [smart account](/blockchain/account/smart-account.md) transfers a [smart asset](/blockchain/token/smart-asset.md), then the fee doubles. <br>If a transaction is validated by an [account script](/ride/script/script-types/account-script.md) or an [asset script](/ride/script/script-types/asset-script.md), then the fee is increased by 0.004 WAVES
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/blockchain/transaction/transaction-fee.md
 
-| Transaction type | Transaction type ID | A minimum transaction fee in WAVES | Comments |
+| Transaction type | Transaction type ID | A minimum transaction fee in ACRYL | Comments |
 | :--- | :--- | :--- | :--- |
 | [Alias transaction](/blockchain/transaction-type/alias-transaction.md) | 10 | 0.001 | |
 | [Burn transaction](/blockchain/transaction-type/burn-transaction.md) | 6 | 0.001 | |

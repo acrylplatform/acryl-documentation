@@ -12,8 +12,8 @@ The language:
 
 ## IDE
 
-Use [Waves IDE](/smart-contracts/tools/waves-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=wavesplatform.waves-ride) for writing scripts.
+Use [Acryl IDE](/smart-contracts/tools/acryl-ide.md) or Visual Studio Code with the [RIDE extension](https://marketplace.visualstudio.com/items?itemName=acrylplatform.acryl-ride) for writing scripts.
 
 ## The history of creation
 
-RIDE was created in 2018. The [white paper](https://wavesplatform.com/files/docs/white_paper_waves_smart_contracts.pdf) of the language was published at that time also.
+RIDE was created in 2018. The [white paper](https://acrylplatform.com/files/docs/white_paper_acryl_smart_contracts.pdf) of the language was published at that time also.

@@ -1,8 +1,8 @@
 # Genesis transaction
 
-A **genesis transaction** is a [transaction](/blockchain/transaction.md) of the [genesis block](/blockchain/block/genesis-block.md) that assigns [WAVES](/blockchain/token/waves.md) to the [account](/blockchain/account.md).
+A **genesis transaction** is a [transaction](/blockchain/transaction.md) of the [genesis block](/blockchain/block/genesis-block.md) that assigns [ACRYL](/blockchain/token/acryl.md) to the [account](/blockchain/account.md).
 
-Genesis transactions are responsible for the initial distribution of WAVES between accounts during the creation of the [blockchain](/blockchain/blockchain.md).
+Genesis transactions are responsible for the initial distribution of ACRYL between accounts during the creation of the [blockchain](/blockchain/blockchain.md).
 
 ## Binary format
 

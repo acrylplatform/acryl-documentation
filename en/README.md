@@ -27,7 +27,7 @@
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
   * [Transaction version](blockchain/transaction/transaction-version.md)
 * Transaction type
-  * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1457/files)
+  * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/acrylplatform/acryl-documentation/pull/1457/files)
 
 ### RIDE
 
@@ -40,7 +40,7 @@
 * Script
   * [Directives](ride/script/directives.md)
 * [Expression](ride/base-concepts/expression.md)
-* [Functions](ride/functions.md) — [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
+* [Functions](ride/functions.md) — [<span style="color:green">updated</span>](https://github.com/acrylplatform/acryl-documentation/pull/1465/files)
 * [Operators](ride/operators.md)
 * [Variables](ride/variables.md)
 * Common structures
@@ -48,12 +48,17 @@
 * Transaction structures
   * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
 
-### Waves Node
+### Acryl Node
 
+<<<<<<< HEAD
+* [gRPC Server installation](acryl-node/extensions/grpc-server/grpc-server-installation.md)
+* [Node configuration](acryl-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/acrylplatform/acryl-documentation/pull/1515)
+=======
 * [Prerequisites](waves-node/prerequisites.md)
   * [Hardware requirements](waves-node/prerequisites/hardware-requirements.md)
 * [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
 * [Node configuration](waves-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1515)
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ### Waves Oracles
 
@@ -127,12 +132,12 @@
     * [BurnTransaction](ride/structures/transaction-structures/burn-transaction.md)
     * [CreateAliasTransaction](ride/structures/transaction-structures/create-alias-transaction.md)
 
-### Waves Node
+### Acryl Node
 
 * Features
-  * [Feature](waves-node/features/feature.md)
-  * [Feature activation protocol](waves-node/features/feature-activation-protocol.md)
-* [Node API](waves-node/node-api.md)
-* [Node configuration file](waves-node/node-configuration-file.md)
+  * [Feature](acryl-node/features/feature.md)
+  * [Feature activation protocol](acryl-node/features/feature-activation-protocol.md)
+* [Node API](acryl-node/node-api.md)
+* [Node configuration file](acryl-node/node-configuration-file.md)
 
-> Check out documentation repository on [Github](https://github.com/wavesplatform/waves-documentation)
+> Check out documentation repository on [Github](https://github.com/acrylplatform/acryl-documentation)

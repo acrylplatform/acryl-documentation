@@ -68,7 +68,7 @@ parseInt(str: String): Int|Unit
 ### Примеры
 
 ``` ride
-let str = "Waves"
+let str = "Acryl"
 let result = parseInt(str)
 ```
 
@@ -91,7 +91,7 @@ parseIntValue(str: String): Int
 ### Примеры
 
 ``` ride
-let str = "Waves"
+let str = "Acryl"
 let result = parseIntValue(str)
 ```
 
@@ -154,7 +154,7 @@ toBytes(s: String): ByteVector
 ### Примеры
 
 ``` ride
-let s = "Waves"
+let s = "Acryl"
 let result = toBytes(s)
 ```
 

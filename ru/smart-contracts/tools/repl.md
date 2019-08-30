@@ -1,6 +1,6 @@
 # REPL
 
-**REPL** ([_read–eval–print loop_](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)) — консоль [Waves IDE](/smart-contracts/tools/waves-ide.md).
+**REPL** ([_read–eval–print loop_](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop)) — консоль [Acryl IDE](/smart-contracts/tools/acryl-ide.md).
 
 <img src="img/repl/repl.png" width="700px" />
 
@@ -12,4 +12,4 @@
 * получать баланс аккаунта
 * читать данные из [хранилища данных аккаунта](/blockchain/account/account-data-storage.md)
 
-Документация по функциям консоли доступна на [GitHub](https://wavesplatform.github.io/js-test-env).
+Документация по функциям консоли доступна на [GitHub](https://acrylplatform.github.io/js-test-env).

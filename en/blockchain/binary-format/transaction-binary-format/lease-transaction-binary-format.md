@@ -23,6 +23,9 @@ See the [example](https://nodes.wavesnodes.com/transactions/info/J6jZCzLpWJX8EDV
 
 ## Transaction version 1
 
+<<<<<<< HEAD
+\* Only Acryl are currently supported
+=======
 | Field order number | Field | Field type | Field size in bytes | Comment |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 8 |
@@ -32,3 +35,4 @@ See the [example](https://nodes.wavesnodes.com/transactions/info/J6jZCzLpWJX8EDV
 | 5 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 6 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
 | 7 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | | |
+>>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a

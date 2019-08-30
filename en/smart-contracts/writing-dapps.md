@@ -1,6 +1,6 @@
 # Writing dApps
 ## Default transactions validation
-After the creation of a Waves account, each transaction that's sent from this account goes through the process of validation. If a transaction is valid, then it goes to generated block in the blockchain, if not — it's rejected by blockchain.
+After the creation of a Acryl account, each transaction that's sent from this account goes through the process of validation. If a transaction is valid, then it goes to generated block in the blockchain, if not — it's rejected by blockchain.
 
 By default, _only_ the fact that the transaction belongs to the owner of the account from which it was sent, is checked. To check that, the transaction's binary data, the account owner's public key and the digital signature of the transaction are being run through special `sigVerify` function. If the `sigVerify` function returns `true` — the transaction is considered valid, otherwise — invalid.
 
@@ -8,14 +8,14 @@ By default, _only_ the fact that the transaction belongs to the owner of the acc
 If a validation algorithm has to have some additional logic that goes beyond only the detection of transaction's ownership, then a special script written in RIDE is used. This script is attached to the account. That kind of script is called the **account script**. After the attachment of the script to the account, all the transactions that are sent from this account will be verified with this script.
 
 ## IDE for writing account scripts
-We are using [Waves IDE](http://ide.wavesplatform.com/) as our IDE for writing RIDE scripts. To create a new script let's click the **New** button and select the **Account script** option.
+We are using [Acryl IDE](http://ide.acrylplatform.com/) as our IDE for writing RIDE scripts. To create a new script let's click the **New** button and select the **Account script** option.
 ![](../../assets/1.png)
 
 A new tab will open, inside of which we can start writing our RIDE script.
 ![](../../assets/2.png)
 
 ## Working with transaction object inside of the account script
-An account script has the context containing a few useful variables. One of such variables is the variable `tx`, that contains within itself the information about the transaction that's validated by the account script. There are [several types of transactions](/waves-node/node-api/transactions.md) exist in the Waves blockchain. Inside of the account script we have to have an ability to determine the type of a transaction. Type casting is possible due to the `match` operator:
+An account script has the context containing a few useful variables. One of such variables is the variable `tx`, that contains within itself the information about the transaction that's validated by the account script. There are [several types of transactions](/acryl-node/node-api/transactions.md) exist in the Acryl blockchain. Inside of the account script we have to have an ability to determine the type of a transaction. Type casting is possible due to the `match` operator:
 ```
 let accountPubKey = base58'9xPqZ7fhgKxRsgkbahawNMsgHhM9TMYa3SXwNmn3bvyS'
  
@@ -118,7 +118,7 @@ func verify() = {
 | dappAddress   | Address  | address of the account to which dApp is attached  |
 |  payment  | OPTION[AttachedPayment]  | payment (amount, asset type) |
 |  fee  |  Int | fee amount  |
-| feeAssetId | OPTION[ByteVector] | fee asset identifier (null for WAVES)|
+| feeAssetId | OPTION[ByteVector] | fee asset identifier (null for ACRYL)|
 |  call: <br /> - function <br /> -args | <br /> String <br />LIST[UNION(Boolean,ByteVector,Int,String)]  | <br /> the name of the callable function <br /> the list of the passed arguments |
 |  id  | ByteVector  |  transaction identifier |
 |  timestamp  |  Int | transaction execution time  |
@@ -170,7 +170,7 @@ func verify() = {
 @Callable(i)        # Context object with the name "i".
 func deposit() = {
    let pmt = extract(i.payment)
-   if (isDefined(pmt.assetId)) then throw("can hold waves only at the moment")
+   if (isDefined(pmt.assetId)) then throw("can hold acryl only at the moment")
    else {
         let currentKey = toBase58String(i.caller.bytes)
         let currentAmount = match getInteger(this, currentKey) {

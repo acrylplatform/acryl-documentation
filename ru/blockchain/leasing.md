@@ -1,3 +1,3 @@
 # Лизинг
 
-**Лизинг** — передача [WAVES](/blockchain/token/waves.md) в лизинг другому [аккаунту](/blockchain/account.md).
+**Лизинг** — передача [ACRYL](/blockchain/token/acryl.md) в лизинг другому [аккаунту](/blockchain/account.md).
