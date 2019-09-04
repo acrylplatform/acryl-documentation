@@ -4,8 +4,6 @@
 
 * [News](README.md)
 * [User guide](getting-started/getting-started-for-users.md)
-* [Developer guide](getting-started/getting-started-for-developers.md)
-* [Node owner guide](getting-started/getting-started-for-node-owners.md)
 
 ## Blockchain
 
@@ -95,8 +93,3 @@
   * [Transfer transaction](blockchain/transaction-type/transfer-transaction.md)
 * [Transaction validation](blockchain/transaction-validation.md)
   * [Validating node](blockchain/transaction-validation/validating-node.md)
-
-## Explorer
-
-* [About Acryl Explorer](acryl-explorer/about-acryl-explorer.md)
-* [Account balance top up in the test network](acryl-explorer/account-balance-top-up-in-the-test-network.md)
