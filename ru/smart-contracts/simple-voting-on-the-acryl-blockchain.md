@@ -9,7 +9,7 @@
 1. Создадим [аккаунт](/blockchain/account.md) главы ТСЖ.
 2. Создадим аккаунты жильцов дома.
 3. Создадим [dApp-скрипт](/ride/script/script-types/dapp-script.md) с методом `vote`.
-4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/account/dapp.md).
+4. Привяжем dApp-скрипт к аккаунту главы ТСЖ, создав таким образом [dApp](/blockchain/dapp.md).
 5. Проголосуем с аккаунтов жильцов дома, вызвав метод `vote` dApp.
 6. Узнаем результаты голосования.
 
@@ -31,11 +31,7 @@
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-<<<<<<< HEAD:ru/smart-contracts/simple-voting-on-the-acryl-blockchain.md
 Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/acryl-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [ACRYL](/blockchain/token/acryl.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction-fee.md) за [транзакцию установки скрипта](/blockchain/transaction-type/set-script-transaction.md), когда он будет привязывать [dApp-скрипт](/ride/script/script-types/dapp-script.md) к своему аккаунту.
-=======
-Скопируйте [адрес](/blockchain/address.md) главы ТСЖ и [с помощью Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md) пополните его баланс на 10 [WAVES](/blockchain/token/waves.md). [Токены](/blockchain/token.md) понадобятся главе ТСЖ для оплаты [комиссии](/blockchain/transaction/transaction-fee.md) за [транзакцию установки скрипта](/blockchain/transaction-type/set-script-transaction.md), когда он будет привязывать [dApp-скрипт](/ride/script/script-types/dapp-script.md) к своему аккаунту.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:ru/smart-contracts/simple-voting-on-the-waves-blockchain.md
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -97,7 +93,7 @@ func vote(theVote: Int) = {
 
 #### Функция `vote`
 
-Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных аккаунта](/blockchain/account/account-data-storage.md) главы ТСЖ.
+Функция `vote` возвращает [структуру](/ride/structures.md) `WriteSet`, внутри которой происходит запись голоса в [хранилище данных аккаунта](/blockchain/account-data-storage.md) главы ТСЖ.
 
 Перед функцией `vote` указана аннотация `@Callable`, которая делает данную функцию вызываемой у dApp. У данной аннотации `i` — переменная, содержащая информацию о транзакции, которая вызвала функцию `vote`. Мы используем переменную `i` в коде для получения публичного ключа аккаунта `i.callerPublicKey`, который отправил транзакцию вызова скрипта.
 
@@ -143,7 +139,7 @@ let dataFromStorage = this.getInteger(i.callerPublicKey.toBase58String())
 
 <img src="img/voting/publish.png" width="880"/>
 
-Таким образом, вы только что создали [dApp](/blockchain/account/dapp.md).
+Таким образом, вы только что создали [dApp](/blockchain/dapp.md).
 
 В [Acryl Explorer](https://acrylexplorer.com/testnet), _в тестовой сети_, найдите информацию об активности на адресе главы ТСЖ. Для этого введите адрес главы ТСЖ в строку поиска и нажмите **Enter**.
 

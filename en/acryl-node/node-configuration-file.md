@@ -4,9 +4,9 @@ The **node configuration file** is a settings file of a [node](/blockchain/node.
 
 An example of the default node configuration file is available [on Github](https://github.com/acrylplatform/Acryl/blob/master/node/src/main/resources/application.conf).
 
-## Sections of the configuration file
+## Sections of configuration file
 
-| # | Configuration section | Description |
+| # | Name | Description |
 | :--- | :--- | :--- |
 | 1 | Blockchain | Settings of [blockchain](/blockchain/blockchain.md) |
 | 2 | Extensions | Settings of [extensions](/acryl-node/extensions.md) |

@@ -5,5 +5,5 @@
 Функциями узла являются:
 
 * хранение [блоков](/blockchain/block.md)
-* [валидация транзакций](/blockchain/transaction/transaction-validation.md)
+* [валидация транзакций](/blockchain/transaction-validation.md)
 * отправка [транзакций](/blockchain/transaction.md)

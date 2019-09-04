@@ -12,11 +12,11 @@ Asset(id: ByteVector, quantity: Int, decimals: Int, issuer: Address, issuerPubli
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | id | [ByteVector](/ride/data-types/byte-vector.md) | [Token ID](/blockchain/token/token-id.md) |
-| 2 | quantity | [Int](/ride/data-types/int.md) | Amount of issued token |
-| 3 | decimals | [Int](/ride/data-types/int.md) | Number of decimal places |
-| 4 | issuer | [Address](/ride/structures/common-structures/address.md) | [Address](/blockchain/address.md) of the [account](/blockchain/account.md) that issued a token |
-| 5 | issuerPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Public key of the account that issued a token |
-| 6 | reissuable | [Boolean](/ride/data-types/boolean.md) | true — token can be reissued, false — cannot be reissued |
-| 7 | scripted | [Boolean](/ride/data-types/boolean.md) | true — [smart asset](/ride/smart-assets.md), false — regular token |
-| 8 | sponsored | [Boolean](/ride/data-types/boolean.md) | true — token can be sponsored, false — cannot be sponsored |
+| 1 | id | ByteVector | Token ID[/blockchain/token.md] |
+| 2 | quantity | Int | Amount of issued token |
+| 3 | decimals | Int | Number of decimal places |
+| 4 | issuer | Address | [Address](/blockchain/address.md) of the [account](/blockchain/account.md) that issued a token |
+| 5 | issuerPublicKey | ByteVector | Public key of the account that issued a token |
+| 6 | reissuable | Boolean | true — token can be reissued, false — cannot be reissued |
+| 7 | scripted | Boolean | true — [smart asset](/ride/smart-assets.md), false — regular token |
+| 8 | sponsored | Boolean | true — token can be sponsored, false — cannot be sponsored |

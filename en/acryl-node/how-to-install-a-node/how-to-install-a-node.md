@@ -5,11 +5,7 @@ To run the Acryl node have to go through 2 steps:
 1. Install the JRE 1.8 (64-bit version).
 2. Download [Acryl package](https://github.com/acrylplatform/Acryl/releases) and configure the application.
 
-<<<<<<< HEAD:en/acryl-node/how-to-install-a-node/how-to-install-a-node.md
 Prior to the launch of your nodes, make sure you read the [configuration specification](/acryl-node/configuration-parameters.md)! The default configuration does not contain the safest solution!
-=======
-Prior to the launch of your nodes, make sure you read the [configuration specification](/waves-node/node-configuration.md)! The default configuration does not contain the safest solution!
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/how-to-install-a-node/how-to-install-a-node.md
 
 More specific steps depend on your operating system:
 

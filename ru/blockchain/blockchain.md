@@ -2,4 +2,4 @@
 
 **Блокчейн** или **блокчейн Acryl** — непрерывная последовательная цепочка [блоков](/blockchain/block.md), связанных с помощью криптографии.
 
-У блокчейна есть [высота](/blockchain/blockchain/blockchain-height.md).
+У блокчейна есть [высота](/blockchain/blockchain-height.md).

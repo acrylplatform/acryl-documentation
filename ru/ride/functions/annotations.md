@@ -10,7 +10,7 @@
 
 Аннотация [вызываемой функции](/ride/functions/callable-function.md).
 
-Переменная `inv` содержит информацию о транзакции, которая вызвала функцию [dApp](/blockchain/account/dapp.md).
+Переменная `inv` содержит информацию о транзакции, которая вызвала функцию [dApp](/blockchain/dapp.md).
 
 ## @Verifier(tx: Transaction|[Order](/ride/structures/common-structures.md#order))
 

@@ -49,8 +49,4 @@
 
 ## Update the Configuration
 
-<<<<<<< HEAD:en/acryl-node/upgrading.md
 Please, read the updated documentation of [_**Acryl node configuration file**_](/acryl-node/configuration-parameters.md)_**.**_
-=======
-Please, read the updated documentation of [_**Waves node configuration file**_](/waves-node/node-configuration.md)_**.**_
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/upgrading.md

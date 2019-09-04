@@ -4,7 +4,7 @@ A **callable function** is a [function](/ride/functions.md) of a [dApp script](/
 
 A dApp script may have several callable functions.
 
-A callable function of a [dApp](/blockchain/account/dapp.md) can be invoked by the [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md).
+A callable function of a [dApp](/blockchain/dapp.md) can be invoked by the [invoke script transaction](/blockchain/transaction-type/invoke-script-transaction.md).
 
 ## Example
 

@@ -7,7 +7,6 @@ It also allows you to multi-sign existing transactions or create them without si
 
 This library is a set of transaction constructing functions:
 
-<<<<<<< HEAD:en/acryl-api-and-sdk/client-libraries/acryl-transactions.md
 * [Alias](https://acrylplatform.github.io/acryl-transactions/globals.html#alias)
 * [Issue](https://acrylplatform.github.io/acryl-transactions/globals.html#issue)
 * [Reissue](https://acrylplatform.github.io/acryl-transactions/globals.html#reissue)
@@ -22,33 +21,11 @@ This library is a set of transaction constructing functions:
 * [Order](https://acrylplatform.github.io/acryl-transactions/globals.html#order)
 
 Check full documentation on [GitHub Pages](https://acrylplatform.github.io/acryl-transactions/index.html).
-=======
-* [Alias](https://wavesplatform.github.io/waves-transactions/globals.html#alias)
-* [Issue](https://wavesplatform.github.io/waves-transactions/globals.html#issue)
-* [Reissue](https://wavesplatform.github.io/waves-transactions/globals.html#reissue)
-* [Burn](https://wavesplatform.github.io/waves-transactions/globals.html#burn)
-* [Lease](https://wavesplatform.github.io/waves-transactions/globals.html#lease)
-* [Cancel lease](https://wavesplatform.github.io/waves-transactions/globals.html#cancellease)
-* [Transfer](https://wavesplatform.github.io/waves-transactions/globals.html#transfer)
-* [Mass transfer](https://wavesplatform.github.io/waves-transactions/globals.html#masstransfer)
-* [Set script](https://wavesplatform.github.io/waves-transactions/globals.html#setscript)
-* [Data](https://wavesplatform.github.io/waves-transactions/globals.html#data)
-* [Sponsorship](https://wavesplatform.github.io/waves-transactions/globals.html#sponsorship)
-* [Set asset script](https://wavesplatform.github.io/waves-transactions/globals.html#setassetscript)
-* [InvokeScript](https://wavesplatform.github.io/waves-transactions/globals.html#invokescript)
-* [Order](https://wavesplatform.github.io/waves-transactions/globals.html#order)
-
-Check full documentation on [GitHub Pages](https://wavesplatform.github.io/waves-transactions/index.html).
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-api-and-sdk/client-libraries/waves-transactions.md
 
 ### Transactions
 
 The idea is really simple - you create transaction and sign it from a minimal set of required params.  
-<<<<<<< HEAD:en/acryl-api-and-sdk/client-libraries/acryl-transactions.md
 If you want to create [Transfer transaction](https://acrylplatform.github.io/acryl-transactions/interfaces/itransfertransaction.html) the minimum you need to provide is **amount** and **recipient** as defined in [Transfer params](https://acrylplatform.github.io/acryl-transactions/interfaces/itransferparams.html):
-=======
-If you want to create Transfer transaction the minimum you need to provide is **amount** and **recipient** as defined in Transfer params:
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-api-and-sdk/client-libraries/waves-transactions.md
 
 ```js
 const { transfer } = require('@acryl/acryl-transactions')

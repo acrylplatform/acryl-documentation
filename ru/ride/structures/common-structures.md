@@ -7,7 +7,7 @@
 | 3 | [AssetPair](/ride/structures/common-structures/asset-pair.md) | Структура пары токенов ордера |
 | 4 | [AttachedPayment](/ride/structures/common-structures/attached-payment.md) | Структура платежа [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md) |
 | 5 | [BlockInfo](/ride/structures/common-structures/block-info.md) | Структура [блока](/blockchain/block.md) |
-| 6 | [DataEntry](/ride/structures/common-structures/data-entry.md) | Структура записи [хранилища данных аккаунта](/blockchain/account/account-data-storage.md) |
+| 6 | [DataEntry](/ride/structures/common-structures/data-entry.md) | Структура записи [хранилища данных аккаунта](/blockchain/account-data-storage.md) |
 | 7 | [Invocation](/ride/structures/common-structures/invocation.md) | Структура сокращенного представления транзакции вызова скрипта |
 | 8 | [Order](/ride/structures/common-structures/order.md) | Структура ордера |
 | 9 | [ScriptResult](/ride/structures/common-structures/script-result.md) | Структура результата выполнения вызываемой функции |

@@ -4,7 +4,7 @@
 
 У dApp-скрипта может быть несколько вызываемых функций.
 
-Вызываемую функцию у [dApp](/blockchain/account/dapp.md) можно вызвать с помощью [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md).
+Вызываемую функцию у [dApp](/blockchain/dapp.md) можно вызвать с помощью [транзакции вызова скрипта](/blockchain/transaction-type/invoke-script-transaction.md).
 
 ## Пример
 

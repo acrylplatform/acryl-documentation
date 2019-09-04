@@ -9,7 +9,7 @@ Objective: implement such voting among tenants on the Acryl blockchain.
 1. Create an [account](/blockchain/account.md) of the head of the HOA.
 2. Create accounts of tenants.
 3. Create [dApp script](/ride/script/script-types/dapp-script.md) with the `vote` method.
-4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/account/dapp.md).
+4. Attach dApp script to the account of the head of the HOA, thus creating a [dApp](/blockchain/dapp.md).
 5. Vote from the accounts of tenants by invoking the `vote` method of the dApp.
 6. View the results of the voting.
 
@@ -31,11 +31,7 @@ Rename created account to "Head of HOA".
 
 <img src="img/voting/account-chief.png" width="245"/>
 
-<<<<<<< HEAD:en/smart-contracts/simple-voting-on-the-acryl-blockchain.md
 Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [ACRYL](/blockchain/token/acryl.md) using the [Faucet](/acryl-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the [fee](/blockchain/transaction-fee.md) for the set script transaction when he will be attaching [dApp script](/ride/script/script-types/dapp-script.md) to his account.
-=======
-Copy the [address](/blockchain/address.md) of the head of HOA and top up its balance by 10 [WAVES](/blockchain/token/waves.md) using the [Faucet](/waves-explorer/account-balance-top-up-in-the-test-network.md). The head of HOA will need [tokens](/blockchain/token.md) to pay the [fee](/blockchain/transaction/transaction-fee.md) for the set script transaction when he will be attaching [dApp script](/ride/script/script-types/dapp-script.md) to his account.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/smart-contracts/simple-voting-on-the-waves-blockchain.md
 
 <img src="img/voting/account-chief-balance.png" width="250"/>
 
@@ -97,7 +93,7 @@ func vote(theVote: Int) = {
 
 #### The `vote` function
 
-The `vote` function returns the `WriteSet` [structure](/ride/structures.md), inside of which takes place the recording of the vote to the [account data storage](/blockchain/account/account-data-storage.md) of the head of the HOA.
+The `vote` function returns the `WriteSet` [structure](/ride/structures.md), inside of which takes place the recording of the vote to the [account data storage](/blockchain/account-data-storage.md) of the head of the HOA.
 
 In front of the `vote` function, there is a `@Callable` annotation which makes the dApp function callable. The `i` is the variable that contains the information about transaction which invoked the `vote` function. In the code we use variable `i` to get public key of the account which sent the invoke script transaction.
 
@@ -139,7 +135,7 @@ Note that you can also sign a transaction with a seed phrase or using the [Acryl
 
 <img src="img/voting/seed-and-acryl-keeper.png" width="300"/>
 
-Send a [set script transaction](/blockchain/transaction-type/set-script-transaction.md) from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/account/dapp.md).
+Send a [set script transaction](/blockchain/transaction-type/set-script-transaction.md) from the account of the head of the HOA by pressing **Publish**. By doing so, you just created a [dApp](/blockchain/dapp.md).
 
 <img src="img/voting/publish.png" width="880"/>
 

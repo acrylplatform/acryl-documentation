@@ -10,6 +10,6 @@
 
 * подписывать и отправлять [транзакции](/blockchain/transaction.md)
 * получать баланс аккаунта
-* читать данные из [хранилища данных аккаунта](/blockchain/account/account-data-storage.md)
+* читать данные из [хранилища данных аккаунта](/blockchain/account-data-storage.md)
 
 Документация по функциям консоли доступна на [GitHub](https://acrylplatform.github.io/js-test-env).

@@ -1,48 +1,58 @@
 # Issue transaction binary format
 
-> Learn more about [issue transaction](/blockchain/transaction-type/issue-transaction.md)
+## Binary format version 1
 
+| # | Field name | Type | Length in Bytes |
+| --- | --- | --- | --- |
+| 1 | Transaction type | Byte \(constant, value = 3\) | 1
+| 2 | Signature | ByteStr \(Array[Byte]\) | 64
+| 3 | Transaction type | Byte \(constant, value = 3\) | 1
+| 4 | Sender's public key | PublicKey \(Array[Byte]\) | 32
+| 5.1 | Asset name length \(N\) |  | 2
+| 5.2 | Asset name | Array[Byte] | 4 <= N <= 16
+| 6.1 | Description length \(D\) |  | 2
+| 6.2 | Description | Array[Byte] | D <= 1000
+| 7 | Quantity | Long | 8
+| 8 | Decimals | Byte | 1
+| 9 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1
+| 10 | Fee | Long | 8
+| 11 | Timestamp | Long | 8
 
-## Transaction version2
+The transaction's signature is calculated from the following bytes:
 
-| Field order number | Field | JSON field name | Field type | Field size in bytes | Comment |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Version flag | | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Indicates the [transaction version](/blockchain/transaction/transaction-version.md) is version 2 or higher.<br>Value must be 0 |
-| 2 | [Transaction type ID](/blockchain/transaction-type.md) | type | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 3 |
-| 3 | [Transaction version](/blockchain/transaction/transaction-version.md) | version | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 2 |
-| 4 | [Chain ID](/blockchain/blockchain-network/chain-id.md) | chainId | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
-| 5 | Public key of the transaction sender  | senderPublicKey | Array\[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
-| 6.1 | [Token](/blockchain/token.md) name length | | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
-| 6.2 | [Token](/blockchain/token.md) name | name | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 4 to 16 | |
-| 7.1 | [Token](/blockchain/token.md) description length | | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
-| 7.2 | [Token](/blockchain/token.md) description | description | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 0 to 1000 | |
-| 8 | Number of [Token](/blockchain/token.md) that will be issued | quantity | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 9 | Number of decimal places of [token](/blockchain/token.md) | decimals | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
-| 10 | Reissue flag | reissuable | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | If the value is 0, then token reissue is not possible.<br>If the value is 1, then token reissue is possible |
-| 11 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | fee | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 12 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | timestamp | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 13.1 | Script existence flag | | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | If the value is 0, then the token does not have a script.<br>If the value is 1, then the token has a script |
-| 13.2 | Script length | | [Short](/blockchain/blockchain/blockchain-data-types.md) | S | `S = 0 ` if the value of the "Script existence flag" field is 0.<br>`S = 2 `if the value of the "Script existence flag" field is 1 |
-| 13.3 | Script | script | [String](/blockchain/blockchain/blockchain-data-types.md) | S | `S = 0` if the value of the "Script existence flag" field is 0.<br>0 &lt; `S` ≤ 32768, if the value of the "Script existence flag" field is 1 |
-| 14 | [Transaction proofs](/blockchain/transaction/transaction-proof.md) | proofs | [Proofs](/blockchain/blockchain/blockchain-data-types.md) | S | If the array is empty, then `S`= 3. <br>If the array is not empty, then `S` = 3 + 2 × `N` + (`P`<sub>1</sub> + `P`<sub>2</sub> + ... + `P`<sub>n</sub>), where `N` is the number of proofs in the array, `P`<sub>n</sub> is the size on `N`-th proof in bytes. <br>The maximum number of proofs in the array is 8. The maximum size of each proof is 64 bytes |
+| # | Field name | Type | Length in Bytes |
+| --- | --- | --- | --- |
+| 1 | Transaction type | Byte \(constant, value = 3\) | 1
+| 2 | Sender's public key | PublicKey \(Array[Byte]\) | 32
+| 3.1 | Asset name length \(N\) |  | 2
+| 3.2 | Asset name | Array[Byte] | 4 <= N <= 16
+| 4.1 | Description length \(D\) |  | 2
+| 4.2 | Description | Array[Byte] | D <= 1000
+| 5 | Quantity | Long | 8 |
+| 6 | Decimals | Byte | 1 |
+| 7 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1
+| 8 | Fee | Long | 8 |
+| 9 | Timestamp | Long | 8 |
 
-## JSON representation of the transaction
+## Binary format version 2
 
-See the [example](https://testnodes.wavesnodes.com/transactions/info/8jfD2JBLe23XtCCSQoTx5eAW5QCU6Mbxi3r78aNQLcNf) in Node API.
-
-## Transaction version 1
-
-| Field order number | Field | Field type | Field size in bytes | Comment |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | [Transaction type ID](/blockchain/transaction-type.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | Value must be 3 |
-| 2 | Public key of the transaction sender  | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 32 | |
-| 3.1 | Token name length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
-| 3.2 | Token name | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 4 to 16 | |
-| 4.1 | Token description length | [Short](/blockchain/blockchain/blockchain-data-types.md) | 2 | |
-| 4.2 | Token description | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | From 0 to 1000 | |
-| 5 | Number of [tokens](/blockchain/token.md) that will be issued | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 6 | Number ofdecimal places of [token](/blockchain/token.md) | [Byte](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
-| 7 | Reissue flag | [Boolean](/blockchain/blockchain/blockchain-data-types.md) | 1 | |
-| 8 | [Transaction fee](/blockchain/transaction/transaction-fee.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 9 | [Transaction timestamp](/blockchain/transaction/transaction-timestamp.md) | [Long](/blockchain/blockchain/blockchain-data-types.md) | 8 | |
-| 10 | [Transaction signature](/blockchain/transaction/transaction-signature.md) | Array[[Byte](/blockchain/blockchain/blockchain-data-types.md)] | 64 | | |
+| # | Field name | Type | Length in Bytes |
+| --- | --- | --- | --- |
+| 1 | Transaction multiple version mark | Byte \(constant, value = 0\) | 1
+| 2 | Transaction type | Byte \(constant, value = 3\) | 1
+| 3 | Version | Byte | 1
+| 4 | Chain ID | Byte | 1
+| 5 | Sender's public key | PublicKey \(Array[Byte]\) | 32
+| 6.1 | Name length \(N\) |  | 2
+| 6.2 | Name | Array[Byte] | 4 <= N <= 16
+| 7.1 | Description length \(D\) |  | 2
+| 7.2 | Description | Array[Byte] | D <= 1000
+| 8 | Quantity | Long | 8
+| 9 | Decimals | Byte | 1
+| 10 | Reissuable flag \(1 - True, 0 - False\) | Boolean | 1
+| 11 | Fee | Long | 8
+| 12 | Timestamp | Long | 8
+| 13.1 | Script existence flag \(1/0\) |  | 1
+| 13.2 | Script length \(S\) |  | 2 or 0 \(depends on the byte in 13.1\)
+| 13.3 | Script | Script | S <= 32768 or 0 \(depends on the byte in 13.1\)
+| 14 | Proofs | Proofs | See Proofs structure

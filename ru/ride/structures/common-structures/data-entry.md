@@ -1,6 +1,6 @@
 # DataEntry
 
-Структура записи [хранилища данных аккаунта](/blockchain/account/account-data-storage.md).
+Структура записи [хранилища данных аккаунта](/blockchain/account-data-storage.md).
 
 ## Конструктор
 
@@ -12,5 +12,5 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | key | [String](/ride/data-types/string.md) | Ключ записи |
-| 2 | value | [Int](/ride/data-types/int.md)&#124;[Boolean](/ride/data-types/boolean.md)&#124;[ByteVector](/ride/data-types/byte-vector.md)&#124;[String](/ride/data-types/string.md) | Значение записи |
+| 1 | key | String | Ключ записи |
+| 2 | value | Int&#124;Boolean&#124;ByteVector&#124;String | Значение записи |

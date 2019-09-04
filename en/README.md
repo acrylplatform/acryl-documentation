@@ -4,28 +4,15 @@
 
 ### Getting started
 
-* [User guide](getting-started/getting-started-for-users.md) — <span style="color:green">updated</span>
-* [Developer guide](getting-started/getting-started-for-developers.md) — <span style="color:green">updated</span>
+* [User guide](getting-started/getting-started-for-users.md)
 
 ### Blockchain
 
-* Block
-  * [Block timestamp](blockchain/block/block-timestamp.md)
-* Blockchain
-  * [Blockchain data types](blockchain/blockchain/blockchain-data-types.md)
-* Binary format
-  * [Address binary format](/blockchain/binary-format/address-binary-format.md) — <span style="color:green">updated</span>
-* Blockchain network
-  * [Chain ID](blockchain/blockchain-network/chain-id.md)
 * Node
   * [Validating node](blockchain/node/validating-node.md)
-* [Oracle](blockchain/oracle.md)
-* Token
-  * [Token ID](blockchain/token/token-id.md)
 * Transaction
   * [Transaction ID](blockchain/transaction/transaction-id.md)
   * [Transaction timestamp](blockchain/transaction/transaction-timestamp.md)
-  * [Transaction version](blockchain/transaction/transaction-version.md)
 * Transaction type
   * [Data transaction](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">updated</span>](https://github.com/acrylplatform/acryl-documentation/pull/1457/files)
 
@@ -50,24 +37,8 @@
 
 ### Acryl Node
 
-<<<<<<< HEAD
 * [gRPC Server installation](acryl-node/extensions/grpc-server/grpc-server-installation.md)
 * [Node configuration](acryl-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/acrylplatform/acryl-documentation/pull/1515)
-=======
-* [Prerequisites](waves-node/prerequisites.md)
-  * [Hardware requirements](waves-node/prerequisites/hardware-requirements.md)
-* [gRPC Server installation](waves-node/extensions/grpc-server/grpc-server-installation.md)
-* [Node configuration](waves-node/node-configuration.md) - [<span style="color:green">updated</span>](https://github.com/wavesplatform/waves-documentation/pull/1515)
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
-
-### Waves Oracles
-
-* [About Waves Oracles](waves-oracles/about-waves-oracles.md)
-* [Create an oracle card with a data transaction](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
-* [Create an oracle card with Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
-* [Oracle card](waves-oracles/oracle-card.md)
-* [Updating oracle card](waves-oracles/updating-oracle-card.md)
-* [How to create an oracle](waves-oracles/how-to-create-an-oracle.md)
 
 ### July articles
 

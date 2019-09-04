@@ -2,7 +2,7 @@
 
 **Функция-верификатор** — [функция](/ride/functions.md) [dApp-скрипта](/ride/script/script-types/dapp-script.md) с [аннотацией](/ride/functions/annotations.md) `@Verifier`.
 
-Функция-верификатор отвечает за [валидацию транзакций](/blockchain/transaction/transaction-validation.md) и ордеров, которые отправляются с [dApp](/blockchain/account/dapp.md).
+Функция-верификатор отвечает за [валидацию транзакций](/blockchain/transaction-validation.md) и ордеров, которые отправляются с [dApp](/blockchain/dapp.md).
 
 У dApp-скрипта может быть только _одна_ функция-верификатор.
 

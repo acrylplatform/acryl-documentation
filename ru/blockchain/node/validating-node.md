@@ -1,3 +1,3 @@
 # Валидирующий узел
 
-**Валидирующий узел** — [узел](/blockchain/node.md), который [валидирует](/blockchain/transaction/transaction-validation.md) транзакции.
+**Валидирующий узел** — [узел](/blockchain/node.md), который [валидирует](/blockchain/transaction-validation.md) транзакции.

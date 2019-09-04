@@ -22,7 +22,6 @@
 * [Операторы](ride/operators.md)
 * [Определение](ride/base-concepts/definition.md)
 * [Переменные](ride/variables.md)
-<<<<<<< HEAD
 * [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/acrylplatform/acryl-documentation/pull/1465/files)
 * Структуры транзакций
   * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
@@ -33,40 +32,13 @@
   * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
   * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
   * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
-=======
-* [Функции](ride/functions.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1465/files)
-* Структуры
-  * Общие структуры
-    * [Alias](ride/structures/common-structures/alias.md)
-  * Структуры транзакций
-    * [DataTransaction](ride/structures/transaction-structures/data-transaction.md)
-    * [ExchangeTransaction](ride/structures/transaction-structures/exchange-transaction.md)
-    * [GenesisTransaction](ride/structures/transaction-structures/genesis-transaction.md)
-    * [InvokeScriptTransaction](ride/structures/transaction-structures/invoke-script-transaction.md)
-    * [IssueTransaction](ride/structures/transaction-structures/issue-transaction.md)
-    * [LeaseTransaction](ride/structures/transaction-structures/lease-transaction.md)
-    * [LeaseCancelTransaction](ride/structures/transaction-structures/lease-cancel-transaction.md)
-    * [MassTransferTransaction](ride/structures/transaction-structures/mass-transfer-transaction.md)
-    * [ReissueTransaction](ride/structures/transaction-structures/reissue-transaction.md)
-    * [SetAssetScriptTransaction](ride/structures/transaction-structures/set-asset-script-transaction.md)
-    * [SetScriptTransaction](ride/structures/transaction-structures/set-script-transaction.md)
-    * [TransferTransaction](ride/structures/transaction-structures/transfer-transaction.md)
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ### Блокчейн
 
-* Бинарный формат
-  * [Бинарный формат адреса](blockchain/binary-format/address-binary-format.md)
-  * [Бинарный формат псевдонима](blockchain/binary-format/alias-binary-format.md)
-* Блок
-  * [Временная метка блока](blockchain/block/block-timestamp.md)
-* Блокчейн
-  * [Типы данных блокчейна](blockchain/blockchain/blockchain-data-types.md)
-* Сеть блокчейна
-  * [Байт сети](blockchain/blockchain-network/chain-id.md)
-* [Оракул](blockchain/oracle.md)
+* Транзакция
+  * [ID транзакции](blockchain/transaction/transaction-id.md)
+  * [Временна́я метка транзакции](blockchain/transaction/transaction-timestamp.md)
 * Тип транзакции
-<<<<<<< HEAD
   * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/acrylplatform/acryl-documentation/pull/1456/files)
 * Узел
   * [Валидирующий узел](blockchain/node/validating-node.md)
@@ -74,33 +46,6 @@
 ## Acryl Node
 
 * [Установка gRPC Server](acryl-node/extensions/grpc-server/grpc-server-installation.md)
-=======
-  * [Транзакция данных](blockchain/transaction-type/data-transaction.md) — [<span style="color:green">обновлено</span>](https://github.com/wavesplatform/waves-documentation/pull/1456/files)
-* Токен  
-  * [ID токена](blockchain/token/token-id.md)
-* Транзакция
-  * [ID транзакции](blockchain/transaction/transaction-id.md)
-  * [Версия транзакции](blockchain/transaction/transaction-version.md)
-  * [Временная метка транзакции](blockchain/transaction/transaction-timestamp.md)
-* Узел
-  * [Валидирующий узел](blockchain/node/validating-node.md)
-
-### Oracles
-
-* [Как создать оракул](waves-oracles/how-to-create-an-oracle.md)
-* [Карточка оракула](waves-oracles/oracle-card.md)
-* [О Waves Oracles](waves-oracles/about-waves-oracles.md)
-* [Обновление карточки оракула](waves-oracles/updating-oracle-card.md)
-* [Создание карточки оракула при помощи Waves Oracle](waves-oracles/create-an-oracle-card-with-waves-oracle.md)
-* [Создание карточки оракула при помощи транзакции данных](waves-oracles/create-an-oracle-card-with-a-data-transaction.md)
-
-## Waves Node
-
-* [Запуск Waves Node в Яндекс.Облаке](waves-node/running-waves-node-in-yandex-cloud.md)
-* [Установка gRPC Server](waves-node/extensions/grpc-server/grpc-server-installation.md)
-* [Предварительные требования](waves-node/prerequisites.md)
-    * [Требования к аппаратному обеспечению](waves-node/prerequisites/hardware-requirements.md)
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## Июльские статьи
 

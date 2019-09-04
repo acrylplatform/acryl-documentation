@@ -6,4 +6,4 @@
 {-# CONTENT_TYPE DAPP #-}
 ```
 
-dApp-скрипт можно привязать к аккаунту с помощью [транзакции установки скрипта](/blockchain/transaction-type/set-script-transaction.md), создав таким образом [dApp](/blockchain/account/dapp.md).
+dApp-скрипт можно привязать к аккаунту с помощью [транзакции установки скрипта](/blockchain/transaction-type/set-script-transaction.md), создав таким образом [dApp](/blockchain/dapp.md).

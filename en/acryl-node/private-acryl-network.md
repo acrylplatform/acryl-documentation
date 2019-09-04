@@ -214,8 +214,4 @@ You can add more nodes to your network using `acryl.network.known-peers` param
 
 **Note**. The developers can add new parameters in `acryl.blockchain.custom.functionality` section, which are not present in this example; for an example of a working configuration, you can look at the [acryl-devnet.conf file in root folder of repository](https://github.com/acrylplatform/Acryl/blob/master/node/acryl-devnet.conf).
 
-<<<<<<< HEAD:en/acryl-node/private-acryl-network.md
 Check our [configuration file documentation](/acryl-node/configuration-parameters.md) for more information.
-=======
-Check our [configuration file documentation](/waves-node/node-configuration.md) for more information.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/private-waves-network.md

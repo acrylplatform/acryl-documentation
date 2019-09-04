@@ -1,6 +1,6 @@
 # DataEntry
 
-Structure of a data record of an [account data storage](/blockchain/account/account-data-storage.md).
+Structure of a data record of an [account data storage](/blockchain/account-data-storage.md).
 
 ## Constructor
 
@@ -12,5 +12,5 @@ DataEntry(key: String, value: Int|Boolean|ByteVector|String)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | key | [String](/ride/data-types/string.md) | Key of a record |
-| 2 | value|[Int](/ride/data-types/int.md)&#124;[Boolean](/ride/data-types/boolean.md)&#124;[ByteVector](/ride/data-types/byte-vector.md)&#124;[String](/ride/data-types/string.md) | Value of a record |
+| 1 | key | String | The key of a record |
+| 2 | value|Int&#124;Boolean&#124;ByteVector&#124;String | The value of a record |

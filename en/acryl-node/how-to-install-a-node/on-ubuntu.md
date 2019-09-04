@@ -26,11 +26,7 @@ But if you get an error, then check your installation and try to find some bette
 
 Just [download latest acryl deb](https://github.com/acrylplatform/Acryl/releases) and install it with `sudo dpkg -i acryl*.deb`. Now it's time to check your acryl config!
 
-<<<<<<< HEAD:en/acryl-node/how-to-install-a-node/on-ubuntu.md
 It's embedded into the deb package and unpacked to `/usr/share/acryl/conf/acryl.conf` \(or `acryl-testnet` folder for testnet\) and symlinked to `/etc/acryl/acryl.conf`. [Please read this and edit acryl config](/acryl-node/configuration-parameters.md) with caution.
-=======
-It's embedded into the deb package and unpacked to `/usr/share/waves/conf/waves.conf` \(or `waves-testnet` folder for testnet\) and symlinked to `/etc/waves/waves.conf`. [Please read this and edit waves config](/waves-node/node-configuration.md) with caution.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/how-to-install-a-node/on-ubuntu.md
 
 There are two types of deb packages of acryl nodes: with _**upstart loader**_ and _**systemd loader**_.
 
@@ -52,11 +48,7 @@ Users can start the node with `sudo service acryl start` \(`acryl-testnet` for t
 
 Check out the configuration file, **it is very important**! On this depends **the safety of your wallet and money**.
 
-<<<<<<< HEAD:en/acryl-node/how-to-install-a-node/on-ubuntu.md
 Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/acryl-node/configuration-parameters.md)
-=======
-Just open it via your favorite text editor, pour a cup of tea and read [the documentation of the configuration file.](/waves-node/node-configuration.md)
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/how-to-install-a-node/on-ubuntu.md
 
 Then start console, navigate to the folder with the jar file with the command `cd /opt/acryl` and start acryl node with command `java -jar acryl.jar acryl-config.conf`.
 

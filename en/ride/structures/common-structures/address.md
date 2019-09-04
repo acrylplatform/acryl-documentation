@@ -12,4 +12,4 @@ Address(bytes: ByteVector)
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | bytes | [ByteVector](/ride/data-types/byte-vector.md) | Array of bytes of the address |
+| 1 | bytes | ByteVector | Array of bytes of the address |

@@ -24,11 +24,7 @@ If you get an error check your installation and try find a solution or a better 
 
 Carefully edit the configuration acryl .conf file, **it is very important! The safety of your wallet and money depends on this!**
 
-<<<<<<< HEAD:en/acryl-node/how-to-install-a-node/on-windows.md
 Just open it with your favorite text editor, pour a cup of tea and read [the documentation of the configuration file](/acryl-node/configuration-parameters.md).
-=======
-Just open it with your favorite text editor, pour a cup of tea and read [the documentation of the configuration file](/waves-node/node-configuration.md).
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/how-to-install-a-node/on-windows.md
 
 Then start Windows Command line app `cmd.exe`, navigate to the folder with the jar file with the command `cd C:/acryl` and start acryl node with command `java -jar acryl.jar acryl.conf`.
 

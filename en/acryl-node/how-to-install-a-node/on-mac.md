@@ -22,11 +22,7 @@ If you get an error check your installation and try to find a solution or a bett
 
 Carefully edit the configuration acryl.conf file, **it is very important! The safety of your wallet and money depends on this!**
 
-<<<<<<< HEAD:en/acryl-node/how-to-install-a-node/on-mac.md
 So, just open it with your favorite text editor, pour a cup of tea and read [the documentation of the configuration file](/acryl-node/configuration-parameters.md).
-=======
-So, just open it with your favorite text editor, pour a cup of tea and read [the documentation of the configuration file](/waves-node/node-configuration.md).
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-node/how-to-install-a-node/on-mac.md
 
 Then start Terminal app `Terminal.app`, navigate to the folder with the jar file with the command `cd ~/acryl`and start acryl node with command `java -jar acryl.jar acryl.conf`.
 

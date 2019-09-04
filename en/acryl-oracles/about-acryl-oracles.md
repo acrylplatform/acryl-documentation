@@ -1,6 +1,5 @@
 # About Acryl Oracles
 
-<<<<<<< HEAD:en/acryl-oracles/about-acryl-oracles.md
 Acryl platform allows users to issue their own [oracle](/acryl-oracles/oracle.md) and act as a data carrier, a reliable connection between Web APIs and your dApp. Oracles allow you to write data in the blockchain according to certain rules.
 
 Based on the tool provided, some users will be able to describe their protocols and create Oracles, while other users will be able to easily find already created oracles and build DApp using this protocols.
@@ -275,15 +274,6 @@ An example data transaction to initialize a data provider:
 | 500 | 500 | DApps |
 |  | 501 | Identification |
 |  | 502 | Games |
-=======
-**Waves Oracles** is the online service ([https://oracles.wavesexplorer.com/](https://oracles.wavesexplorer.com/)) destined to work with oracles.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a:en/waves-oracles/about-waves-oracles.md
 
-In the current version it is possible to register an [oracle card](/waves-oracles/oracle-card.md), the creation of the microservice itself, which receives data from the source and records it in blockchain, is outside the scope of this service.
 
-Waves Oracles features:
 
-- Viewing public [oracle](/blockchain/oracle.md) cards.
-- Searching oracles by name or [account](/blockchain/account.md).
-- Filtering of oracles by category, status, network type.
-- [Create an oracle card](/waves-oracles/create-an-oracle-card-with-waves-oracle.md).

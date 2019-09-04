@@ -35,17 +35,13 @@ Acryl поддерживает разработчиков грантами.
 
 Разместите свой проект на Acryl и соберите на него средства на краудфандинг-платформе [Ventuary DAO](https://beta.ventuary.space/).
 
-Чтобы разместить проект, сначала станьте членом DAO (_Decentralised Autonomous Organization_). Попросите любого [действующего пользователя](https://beta.ventuary.space/community) зарегистрировать вас или обратитесь с запросом в [группу](https://t.me/ventuary_dao) Ventuary DAO в Telegram.
+Чтобы разместить проект, сначала станьте членом DAO (_Decentralised Autonomous Organization_). Попросите любого [действующего пользователя](https://beta.ventuary.space/community) зарегистрировать вас или обратитесь с запросом группу [Ventuary DAO](https://t.me/ventuary_dao) в Telegram.
 
 После того, как вы станете членом DAO, у вас появится возможность создавать проекты, голосовать и приглашать новых пользователей на платформу Ventuary DAO.
 
 ## Сообщество
 
-<<<<<<< HEAD
 Получайте ответы на свои вопросы в [группе разработчиков Acryl](https://t.me/acryl_ride_dapps_dev) в [Telegram](https://t.me/acryl_ride_dapps_dev).
-=======
-Получайте ответы на свои вопросы в [группе разработчиков](https://t.me/waves_ride_dapps_dev) Waves в Telegram.
->>>>>>> 31e41b6d9847032af4f7b5210302f9803949507a
 
 ## Платформа Acryl на GitHub
 

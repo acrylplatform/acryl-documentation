@@ -4,4 +4,4 @@
 
 У каждого аккаунта есть _единственный_ [адрес](/blockchain/address.md).
 
-У каждого аккаунта есть [хранилище данных](/blockchain/account/account-data-storage.md).
+У каждого аккаунта есть [хранилище данных](/blockchain/account-data-storage.md).

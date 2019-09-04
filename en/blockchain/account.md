@@ -4,4 +4,4 @@ An **account** is a mathematically bound pair of a public and a private keys on 
 
 Each account has a _single_ [address](/blockchain/address.md).
 
-Each account has an [account data storage](/blockchain/account/account-data-storage.md).
+Each account has an [account data storage](/blockchain/account-data-storage.md).

@@ -12,4 +12,4 @@ TransferSet(transfers: List[ScriptTransfer])
 
 |   #   | Name | Data type | Description |
 | :--- | :--- | :--- | :--- |
-| 1 | transfers | [List](/ride/data-types/list.md)[[ScriptTransfer](/ride/structures/common-structures/script-transfer.md)] | List of token transfers |
+| 1 | transfers | List[ScriptTransfer] | The list of token transfers |

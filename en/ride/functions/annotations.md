@@ -8,7 +8,7 @@ At the present moment, there are two annotations: `@Callable` and `@Verifier`.
 
 Annotation of a [callable function](/ride/functions/callable-function.md).
 
-Variable `inv` contains information about the transaction that invoked the function of a [dApp](/blockchain/account/dapp.md).
+Variable `inv` contains information about the transaction that invoked the function of a [dApp](/blockchain/dapp.md).
 
 ## @Verifier(tx: Transaction|[Order](/ride/structures/common-structures.md#order))
 

@@ -12,11 +12,10 @@ Asset(quantity: Int, decimals: Int, issuer: Address, issuerPublicKey: ByteVector
 
 |   #   | Название | Тип данных | Описание |
 | :--- | :--- | :--- | :--- |
-| 1 | id | [ByteVector](/ride/data-types/byte-vector.md) | [ID токена](/blockchain/token/token-id.md)
-| 2 | quantity | [Int](/ride/data-types/int.md) | Количество выпущенных [токенов](/blockchain/token.md) |
-| 3 | decimals | [Int](/ride/data-types/int.md) | Число знаков после запятой у токена |
-| 4 | issuer | [Address](/ride/structures/common-structures/address.md) | Адрес аккаунта, который выпустил токен |
-| 5 | issuerPublicKey | [ByteVector](/ride/data-types/byte-vector.md) | Публичный ключ аккаунта, выпустившего токен |
-| 6 | reissuable | [Boolean](/ride/data-types/boolean.md) | true — токен можно довыпускать, false — нельзя довыпускать |
-| 7 | scripted | [Boolean](/ride/data-types/boolean.md) | true — [смарт-ассет](/blockchain/token/smart-asset.md), false — обычный токен |
-| 8 | sponsored | [Boolean](/ride/data-types/boolean.md) | true — токен спонсируемый, false — неспонсируемый |
+| 1 | quantity | Int | Количество выпущенных [токенов](/blockchain/token.md) |
+| 2 | decimals | Int | Число знаков после запятой у токена |
+| 3 | issuer | Address | Адрес аккаунта, который выпустил токен |
+| 4 | issuerPublicKey | ByteVector | Публичный ключ аккаунта, выпустившего токен |
+| 5 | reissuable | Boolean | true — токен можно довыпускать, false — нельзя довыпускать |
+| 6 | scripted | Boolean | true — [смарт-ассет](/blockchain/smart-asset.md), false — обычный токен |
+| 7 | sponsored | Boolean | true — токен спонсируемый, false — неспонсируемый |
