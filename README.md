@@ -1,3 +1,2 @@
-# Acryl platform documentation
+# Initial page
 
-Documentation website: https://docs.acrylplatform.com
